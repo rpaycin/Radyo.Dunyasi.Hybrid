@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCategory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Category>
+    <Id>1</Id>
+    <Name>80'ler</Name>
+  </Category>
+  <Category>
+    <Id>2</Id>
+    <Name>Akustik</Name>
+  </Category>
+  <Category>
+    <Id>3</Id>
+    <Name>Altenatif</Name>
+  </Category>
+  <Category>
+    <Id>4</Id>
+    <Name>Arabesk</Name>
+  </Category>
+  <Category>
+    <Id>5</Id>
+    <Name>Dini</Name>
+  </Category>
+  <Category>
+    <Id>6</Id>
+    <Name>Dünya Müzikleri</Name>
+  </Category>
+  <Category>
+    <Id>7</Id>
+    <Name>Elektronik</Name>
+  </Category>
+  <Category>
+    <Id>8</Id>
+    <Name>Görme Engelli</Name>
+  </Category>
+  <Category>
+    <Id>9</Id>
+    <Name>Haber</Name>
+  </Category>
+  <Category>
+    <Id>10</Id>
+    <Name>Halk Müziği</Name>
+  </Category>
+  <Category>
+    <Id>11</Id>
+    <Name>Hip-Hop</Name>
+  </Category>
+  <Category>
+    <Id>12</Id>
+    <Name>Jazz</Name>
+  </Category>
+  <Category>
+    <Id>13</Id>
+    <Name>Klasik Müzik</Name>
+  </Category>
+  <Category>
+    <Id>14</Id>
+    <Name>Lounge</Name>
+  </Category>
+  <Category>
+    <Id>15</Id>
+    <Name>Metal</Name>
+  </Category>
+  <Category>
+    <Id>16</Id>
+    <Name>Nostaljik</Name>
+  </Category>
+  <Category>
+    <Id>17</Id>
+    <Name>Pop</Name>
+  </Category>
+  <Category>
+    <Id>18</Id>
+    <Name>Popüler</Name>
+  </Category>
+  <Category>
+    <Id>19</Id>
+    <Name>Rock</Name>
+  </Category>
+  <Category>
+    <Id>20</Id>
+    <Name>Slow</Name>
+  </Category>
+  <Category>
+    <Id>21</Id>
+    <Name>Spor</Name>
+  </Category>
+  <Category>
+    <Id>22</Id>
+    <Name>Türk Sanat Müziği</Name>
+  </Category>
+  <Category>
+    <Id>23</Id>
+    <Name>Türkçe Pop</Name>
+  </Category>
+</ArrayOfCategory>

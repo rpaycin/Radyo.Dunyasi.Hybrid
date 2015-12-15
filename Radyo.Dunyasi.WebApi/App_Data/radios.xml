@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Radio>
+    <RadioId>1</RadioId>
+    <RadioName>Akdeniz FM</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+      <int>23</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>2</RadioId>
+    <RadioName>Arabesk Radyo</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>3</RadioId>
+    <RadioName>Arabesk Türkiye</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>4</RadioId>
+    <RadioName>Arabesk Vadisi</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>5</RadioId>
+    <RadioName>Aşk FM</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>6</RadioId>
+    <RadioName>Damar FM</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>7</RadioId>
+    <RadioName>Damla FM</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>8</RadioId>
+    <RadioName>Efkar</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>9</RadioId>
+    <RadioName>Gurbetçi FM</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>10</RadioId>
+    <RadioName>İmbat FM</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>11</RadioId>
+    <RadioName>İstanbul'un Sesi</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>12</RadioId>
+    <RadioName>Kral FM</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>13</RadioId>
+    <RadioName>Kral Türk FM</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>14</RadioId>
+    <RadioName>Lokum FM</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>15</RadioId>
+    <RadioName>Metropol FM Arabesk</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>16</RadioId>
+    <RadioName>Radyo 2000</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>17</RadioId>
+    <RadioName>Radyo 34</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>18</RadioId>
+    <RadioName>Radyo Ahenk</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>19</RadioId>
+    <RadioName>Radyo Dermam</RadioName>
+    <IconUrl>a.png</IconUrl>
+    <StreamUrl>www.google.com</StreamUrl>
+    <ListCategories>
+      <int>4</int>
+    </ListCategories>
+  </Radio>
+</ArrayOfRadio>

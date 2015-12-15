@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using Radyo.Dunyasi.WebApi.CustomFilters;
 using System.Web.Http;
-using System.Web.Routing;
+using System.Web.Http.Filters;
 
 namespace Radyo.Dunyasi.WebApi
 {
@@ -12,6 +9,12 @@ namespace Radyo.Dunyasi.WebApi
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            RegisterWebApiFilters(GlobalConfiguration.Configuration.Filters);
+        }
+
+        public static void RegisterWebApiFilters(HttpFilterCollection filters)
+        {
+            filters.Add(new CustomExceptionsAttribute());
         }
     }
 }
