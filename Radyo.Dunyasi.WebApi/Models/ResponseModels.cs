@@ -42,7 +42,7 @@ namespace Radyo.Dunyasi.WebApi.Models
         [XmlElement("StreamUrl")]
         public string StreamUrl { get; set; }
 
-        [XmlElement("ListCategories")]
+        [XmlArray("ListCategories")]
         public List<int> ListCategories { get; set; }
     }
 }

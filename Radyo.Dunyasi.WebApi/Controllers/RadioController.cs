@@ -19,17 +19,24 @@ namespace Radyo.Dunyasi.WebApi.Controllers
                 _business = new RadioBusinessLayer();
         }
 
-        //[CacheOutput(ClientTimeSpan = 86400, ServerTimeSpan = 86400)]
-        public Response<List<Category>> GetListCategories()
+        [CacheOutput(ClientTimeSpan = 86400, ServerTimeSpan = 86400)]
+        public Response<List<Category>> GetCategories()
         {
             var result = _business.GetCategories();
             return result;
         }
 
-        //[CacheOutput(ClientTimeSpan = 86400, ServerTimeSpan = 86400)]
-        public Response<List<Radio>> GetRadios(int radioId)
+        [CacheOutput(ClientTimeSpan = 86400, ServerTimeSpan = 86400)]
+        public Response<List<Radio>> GetRadios()
         {
-            var result = _business.GetFullListRadios();
+            var result = _business.GetRadios();
+            return result;
+        }
+
+
+        public Response<List<Radio>> GetRadiosByCategoryId(int categoryId)
+        {
+            var result = _business.GetRadios(categoryId);
             return result;
         }
     }
