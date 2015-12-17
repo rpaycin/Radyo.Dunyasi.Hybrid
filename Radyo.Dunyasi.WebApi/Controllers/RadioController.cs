@@ -1,10 +1,6 @@
 ﻿using Radyo.Dunyasi.WebApi.BusinessLayer;
 using Radyo.Dunyasi.WebApi.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 using WebApi.OutputCache.V2;
 
