@@ -30,7 +30,7 @@ html.swipebox {
 }
 
 #swipebox-slider .slide {
-  background: url("loader.gif")/*tpa=http://sindevo.com/minio/main/css/img/loader.gif*/ no-repeat center center;
+  background: url("../images/loader.gif")/*tpa=http://sindevo.com/minio/main/css/img/loader.gif*/ no-repeat center center;
   height: 100%;
   width: 100%;
   line-height: 1px;

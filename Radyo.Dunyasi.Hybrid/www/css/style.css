@@ -244,81 +244,27 @@ color:#FFFFFF;
 font-size:16px;
 font-weight:300;
 }
-.home-icon{
-background:url(../images/home.png)/*tpa=http://sindevo.com/minio/main/images/icons/white/home.png*/;
+.all-radios-icon{
+background:url(../images/all_radios.png);
 background-size: auto 50%;
 background-repeat: no-repeat;
 background-position: 10px 50%;
 }
-.about-icon{
-background:url(../images/user.png)/*tpa=http://sindevo.com/minio/main/images/icons/white/user.png*/;
+.categories-icon{
+background:url(../images/categories.png);
 background-size: auto 50%;
 background-repeat: no-repeat;
 background-position: 10px 50%;
 }
-.features-icon{
-background:url(../images/settings.png)/*tpa=http://sindevo.com/minio/main/images/icons/white/settings.png*/;
-background-size: auto 50%;
-background-repeat: no-repeat;
-background-position: 10px 50%;
-}
-.photos-icon{
-background:url(../images/photos.png)/*tpa=http://sindevo.com/minio/main/images/icons/white/photos.png*/;
-background-size: auto 50%;
-background-repeat: no-repeat;
-background-position: 10px 50%;
-}
-.blog-icon{
-background:url(../images/blog.png)/*tpa=http://sindevo.com/minio/main/images/icons/white/blog.png*/;
+.favourites-icon{
+background:url(../images/favourite.png);
 background-size: auto 50%;
 background-repeat: no-repeat;
 background-position: 10px 50%;
 }
 .contact-icon{
-background:url(../images/contact.png)/*tpa=http://sindevo.com/minio/main/images/icons/white/contact.png*/;
-background-size: auto 40%;
-background-repeat: no-repeat;
-background-position: 10px 50%;
-}
-.lock-icon{
-background:url(../images/lock.png)/*tpa=http://sindevo.com/minio/main/images/icons/white/lock.png*/;
-background-size: auto 40%;
-background-repeat: no-repeat;
-background-position: 10px 50%;
-}
-.tools-icon{
-background:url(../images/tools.png)/*tpa=http://sindevo.com/minio/main/images/icons/white/tools.png*/;
-background-size: auto 40%;
-background-repeat: no-repeat;
-background-position: 10px 50%;
-}
-.envelope-icon{
-background:url(../images/envelope.png)/*tpa=http://sindevo.com/minio/main/images/icons/white/envelope.png*/;
-background-size: auto 40%;
-background-repeat: no-repeat;
-background-position: 10px 50%;
-}
-.download-icon{
-background:url(../images/download.png)/*tpa=http://sindevo.com/minio/main/images/icons/white/download.png*/;
-background-size: auto 40%;
-background-repeat: no-repeat;
-background-position: 10px 50%;
-}
-.video-icon{
-background:url(../images/video.png)/*tpa=http://sindevo.com/minio/main/images/icons/white/video.png*/;
-background-size: auto 40%;
-background-repeat: no-repeat;
-background-position: 10px 50%;
-}
-.heart-icon{
-background:url(../images/heart.png)/*tpa=http://sindevo.com/minio/main/images/icons/white/heart.png*/;
-background-size: auto 40%;
-background-repeat: no-repeat;
-background-position: 10px 50%;
-}
-.logout-icon{
-background:url(../images/logout.png)/*tpa=http://sindevo.com/minio/main/images/icons/white/logout.png*/;
-background-size: auto 40%;
+background:url(../images/contact.png);
+background-size: auto 50%;
 background-repeat: no-repeat;
 background-position: 10px 50%;
 }
@@ -518,7 +464,8 @@ opacity: 1;
 background: #fff;
 }
 a.swiper_read_more{
-color:#ffca2e;
+color:black;
+font-weight:bold;
 border:1px solid #fff;
 padding:20px 30px;
 text-decoration:none;
