@@ -117,4 +117,7 @@
   <preference name="KeepRunning" value="True" />
   <preference name="InAppBrowserStorageEnabled" value="True" />
   <preference name="SuppressesIncrementalRendering" value="True" />
+  <preference name="StatusBarBackgroundColor" value="#000000" />
+  <vs:plugin name="cordova-plugin-statusbar" version="2.0.0" />
+  <vs:plugin name="cordova-plugin-splashscreen" version="3.0.0" />
 </widget>
