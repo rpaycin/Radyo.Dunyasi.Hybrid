@@ -1,60 +1,55 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>jQM Complex Demo</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+   
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <script src="http://www.dragan-gaic.info/js/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
 
-    <link rel="stylesheet" href="css/framework7.css">
-    <link rel="stylesheet" href="css/style.css">
+    <script>
+        $(document).on('click', '#change-page', function () {
+            $.mobile.changePage("album-search-results.html", {
+                data: { area: "asda", value: "1" },
+                transition: "pop"
+            });
+        });
+    </script>
+
+    <script>
+        $(function () {
+            setTimeout(hideSplash, 2000);
+        });
+
+        function hideSplash() {
+            $.mobile.changePage("#index", "fade");
+        }
+    </script>
 </head>
-<body id="mobile_wrap">
-    <div class="panel-overlay"></div>
-    <div class="panel panel-left panel-cover">
-        <nav class="list-nav">
-            <ul>
-                <li class="all-radios-icon"><a href="index.html" class="close-panel">Tüm Radyolar</a></li>
-                <li class="categories-icon"><a href="about.html" class="close-panel">Kategoriler</a></li>
-                <li class="favourites-icon"><a href="features.html" class="close-panel">Favoriler</a></li>
-                <li class="contact-icon"><a href="contact.html" class="close-panel">İletişim</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="views">
-        <div class="view view-main">
-            <div class="navbar">
-                <div class="navbar-inner">
-                    <div class="right menu_open_icon"><a href="#" data-panel="left" class="link icon-only open-panel"></a></div>
-                </div>
-            </div>
-            <div class="pages navbar-through toolbar-through">
-                <div data-page="index" class="page homepage">
-                    <div class="page-content">
-                        <!-- Slider -->
-                        <div class="swiper-container swiper-init" data-effect="coverflow" data-pagination=".swiper-pagination">
-                            <div class="swiper-wrapper">
-
-                                <div class="swiper-slide">
-                                    <span>Radyo <br /> Dünyasına</span>
-                                    <span class="subtitle">hoşgeldiniz</span>
-                                </div>
-                                <div class="swiper-slide">
-                                    <span>Tüm <br />Radyolar</span>
-                                    <span class="subtitle">dinleyebileceğiniz tek uygulama</span>
-                                    <a href="features.html" class="swiper_read_more">BAŞLA</a>
-                                </div>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<body>
+    <div data-role="page" data-theme="b" id="splash" style="background-color: #fff;">
+        <div class="splash">
+            <img src="images/bg.jpg" alt="splash" />
         </div>
     </div>
 
-    <script type="text/javascript" src="scripts/jquery-1.10.1.min.js"></script>
-    <script type="text/javascript" src="scripts/framework7.min.js"></script>
-    <script type="text/javascript" src="scripts/my-app.js"></script>
+    <div data-role="page" id="index">
+        <div data-theme="a" data-role="header">
+            <h3>
+                First Page
+            </h3>
+            <a href="#second" class="ui-btn-right">Next</a>
+        </div>
+
+        <div data-role="content">
+            <a data-role="button" id="change-page">Change Page</a>
+        </div>
+
+        <div data-theme="a" data-role="footer" data-position="fixed">
+
+        </div>
+    </div>
 </body>
-</html>
+</html>  
