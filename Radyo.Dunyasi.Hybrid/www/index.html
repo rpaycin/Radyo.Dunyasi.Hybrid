@@ -1,55 +1,24 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>jQM Complex Demo</title>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-   
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
-    <script src="http://www.dragan-gaic.info/js/jquery-1.8.2.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <meta charset="utf-8" />
 
-    <script>
-        $(document).on('click', '#change-page', function () {
-            $.mobile.changePage("album-search-results.html", {
-                data: { area: "asda", value: "1" },
-                transition: "pop"
-            });
-        });
-    </script>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <title>BlankCordovaApp2</title>
 
-    <script>
-        $(function () {
-            setTimeout(hideSplash, 2000);
-        });
-
-        function hideSplash() {
-            $.mobile.changePage("#index", "fade");
-        }
-    </script>
+    <!-- BlankCordovaApp2 references -->
+    <link href="css/index.css" rel="stylesheet" />
 </head>
 <body>
-    <div data-role="page" data-theme="b" id="splash" style="background-color: #fff;">
-        <div class="splash">
-            <img src="images/bg.jpg" alt="splash" />
-        </div>
-    </div>
+    <p>Hello, your application is ready!</p>
 
-    <div data-role="page" id="index">
-        <div data-theme="a" data-role="header">
-            <h3>
-                First Page
-            </h3>
-            <a href="#second" class="ui-btn-right">Next</a>
-        </div>
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
 
-        <div data-role="content">
-            <a data-role="button" id="change-page">Change Page</a>
-        </div>
-
-        <div data-theme="a" data-role="footer" data-position="fixed">
-
-        </div>
-    </div>
+    <script src="scripts/index.js"></script>
 </body>
-</html>  
+</html>
