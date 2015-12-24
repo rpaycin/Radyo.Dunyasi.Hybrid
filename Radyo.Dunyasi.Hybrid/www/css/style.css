@@ -7,7 +7,7 @@
 }
 
 .demo-wrapper {
-    background-color: #000;
+    background-color: #7F8C8D;
 }
 
     .demo-wrapper .header {
@@ -19,7 +19,7 @@
         color: #fff;
         text-shadow: 0 0 0 rgba(255,255,255,0);
         position: relative;
-        margin-top:15px;
+        margin-top:20px;
     }
 
         .demo-wrapper .header .title {
@@ -62,7 +62,7 @@
     .demo-wrapper .panel {
         background: #7F8C8D;
         color: #ECF0F1;
-        margin-top:15px;
+        margin-top:20px;
     }
 
         .demo-wrapper .panel a {
