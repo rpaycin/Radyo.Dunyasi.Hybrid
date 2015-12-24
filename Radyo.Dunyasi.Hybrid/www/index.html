@@ -11,29 +11,20 @@
 
     <script src="scripts/jquery-1.11.3.min.js"></script>
     <script src="scripts/jquery.mobile-1.4.5.min.js"></script>
-</head>
-<script>
-    $(function () {
-        var menuHtml = '<ul>' +
-               '<li class="allRadios"><a href="#pageAllRadios" data-transition="slide" title="Tüm Radyolar">Tüm Radyolar</a></li>' +
-               '<li class="categories"><a href="#pageCategories" data-transition="slide" title="Kategoriler">Kategoriler</a></li>' +
-               '<li class="favourites"><a href="#" data-transition="slide" title="Favorilerim">Favorilerim</a></li>' +
-           '</ul>';
 
-        $("#panelAllRadios").append(menuHtml);
-        $("#panelCategories").append(menuHtml);
-    });
-</script>
+</head>
 <body>
     <!--Tüm radyo listesi-->
     <div class="demo-wrapper" data-role="page" id="pageAllRadios">
         <div class="panel left" data-role="panel" data-position="left" data-display="push" id="panelAllRadios"></div>
+
         <div class="header" data-role="header">
             <span class="open left"><a href="#panelAllRadios">&#61641;</a></span>
             <span class="title">Tüm Radyolar</span>
         </div>
+
         <div class="content" data-role="content">
-            <h3>This is the content</h3>
+            <ul id="allRadioList" data-role="listview" data-filter="true"></ul>
         </div>
     </div>
 
@@ -47,9 +38,10 @@
         </div>
 
         <div class="content" data-role="content">
-            <h3>This is the content</h3>
         </div>
     </div>
 
+    <script src="scripts/mainOperations.js"></script>
+    <script src="scripts/allRadioList.js"></script>
 </body>
 </html>
