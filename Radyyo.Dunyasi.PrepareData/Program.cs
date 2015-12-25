@@ -13,7 +13,7 @@ namespace Radyyo.Dunyasi.PrepareData
         static void Main(string[] args)
         {
             // Create a new file stream for reading the XML file
-
+            SaveRadios();
             var list = ReadXml<List<Radio>>("radios.xml");
 
         }
@@ -23,25 +23,25 @@ namespace Radyyo.Dunyasi.PrepareData
             XmlSerializer SerializerObj = new XmlSerializer(typeof(List<Radio>));
             var radios = new List<Radio>()
             {
-                new Radio { RadioName = "Akdeniz FM", ListCategories = new List<int> { 4, 23 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "Arabesk Radyo", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "Arabesk Türkiye", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "Arabesk Vadisi", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "Aşk FM", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "Damar FM", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "Damla FM", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "Efkar", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "Gurbetçi FM", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "İmbat FM", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "İstanbul'un Sesi", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "Kral FM", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "Kral Türk FM", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "Lokum FM", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "Metropol FM Arabesk", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "Radyo 2000", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "Radyo 34", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "Radyo Ahenk", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" },
-                new Radio { RadioName = "Radyo Dermam", ListCategories = new List<int> { 4 }, IconUrl = "a.png", StreamUrl = "www.google.com" }
+                new Radio { RadioName = "Akdeniz FM", ListCategories = new List<int> { 4, 23 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Arabesk Radyo", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/arabeskRadyo.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Arabesk Türkiye", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/arabeskTürkiye.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Arabesk Vadisi", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/arabeskVadisi.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Aşk FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/askFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Damar FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/damarFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Damla FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/damlaFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Efkar", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/efkarRadyo.png", StreamUrl = "www.google.com" , IsImageLocal=false, IsShow=true},
+                new Radio { RadioName = "Gurbetçi FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "İmbat FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "İstanbul'un Sesi", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Kral FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Kral Türk FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Lokum FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Metropol FM Arabesk", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Radyo 2000", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Radyo 34", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Radyo Ahenk", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Radyo Dermam", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=false}
             };
 
             for (int i = 0; i < radios.Count; i++)

@@ -93,6 +93,7 @@
   <ItemGroup>
     <Content Include="App_Data\categories.xml" />
     <Content Include="App_Data\radios.xml" />
+    <Content Include="Contents\Images\Radyolar\arabesk\efkarRadyo.png" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>

@@ -36,8 +36,14 @@ namespace Radyo.Dunyasi.WebApi.Models
         [XmlElement("RadioName")]
         public string RadioName { get; set; }
 
+        [XmlElement("IsImageLocal")]
+        public bool IsImageLocal { get; set; }
+
         [XmlElement("IconUrl")]
         public string IconUrl { get; set; }
+
+        [XmlElement("IsShow")]
+        public bool IsShow { get; set; }
 
         [XmlElement("StreamUrl")]
         public string StreamUrl { get; set; }

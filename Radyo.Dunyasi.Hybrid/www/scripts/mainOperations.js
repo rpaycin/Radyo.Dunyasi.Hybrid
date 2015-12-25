@@ -1,8 +1,13 @@
-﻿//ana menuyu sayfalara ekleme
-mainMenuAdd();
+﻿$(function () {
+    //ana menuyu sayfalara ekleme
+    mainMenuAdd();
 
-//statusbari aşağı kaydırma ios için
-addHeaderMarginTop();
+    //statusbari aşağı kaydırma ios için
+    addHeaderMarginTop();
+
+    //var filter = $('#custom-allRadioList').prev();
+    //$('#custom-allRadioList').parent().append(filter);
+});
 
 function mainMenuAdd() {
     var menuHtml = '<ul>' +

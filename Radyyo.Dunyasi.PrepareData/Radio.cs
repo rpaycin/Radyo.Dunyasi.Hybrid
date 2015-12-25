@@ -13,9 +13,13 @@ namespace Radyyo.Dunyasi.PrepareData
 
         public string RadioName { get; set; }
 
+        public bool IsImageLocal { get; set; }
+
         public string IconUrl { get; set; }
 
         public string StreamUrl { get; set; }
+
+        public bool IsShow { get; set; }
 
         public List<int> ListCategories { get; set; }
     }
