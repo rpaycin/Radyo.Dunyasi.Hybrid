@@ -19,9 +19,10 @@ function getallRadioList() {
                 if (radio.IsShow) {
 
                     var imageUrl = radio.IsImageLocal ? localImageURL : serverImageURL;
+                    imageUrl = imageUrl + radio.IconUrl;
 
-                    $('#allRadioList').append('<li><a href="employeedetails.html?id=' + radio.RadioId + '">' +
-                    '<img src=' + imageUrl + '/>' +
+                    $('#allRadioList').append('<li style="height:50px;" ><a href="employeedetails.html?id=' + radio.RadioId + '">' +
+                    '<img style="margin-left:10px;" src=' + imageUrl + '></img>' +
                     '<h4>' + radio.RadioName + '</h4>' + '</a></li>');
                 }
             });
