@@ -7,21 +7,21 @@ var localImageURL = "images/radyolar/";
 var employees;
 
 $('#pageAllRadios').bind('pageinit', function (event) {
-    getallRadioList();
+    getlistViewAllRadio();
 });
 
-function getallRadioList() {
+function getlistViewAllRadio() {
     $.getJSON(serviceURL + 'radio/GetRadios', function (data) {
         if (data.IsSuccess) {
-            $('#allRadioList li').remove();
+            $('#listViewAllRadio li').remove();
 
             $.each(data.Value, function (index, radio) {
                 if (radio.IsShow) {
-                    $('#allRadioList').append(getRadioItem(radio));
+                    $('#listViewAllRadio').append(getRadioItem(radio));
                 }
             });
 
-            $('#allRadioList').listview('refresh');
+            $('#listViewAllRadio').listview('refresh');
         }
         else
             alert('radyo bilgileri alınamadı!');
@@ -32,19 +32,23 @@ function getRadioItem(radio) {
     var imageUrl = radio.IsImageLocal ? localImageURL : serverImageURL;
     imageUrl = imageUrl + radio.IconUrl;
 
-    var radioItem="<li data-icon='false'> \
+    var radioItem = "<li data-icon='false'> \
                     <a href='#'> \
                         <img src='" + imageUrl + "' class='circleImage'> \
                         <h style='margin-left:-20px;'>" + radio.RadioName + "</h> \
-                        <table style='margin-left:-20px;'> \
+                        <table style='margin-left:-20px;;font-size:20px;'> \
                             <tr>\
-                                <td><p style='background-color:#FFEBCD;font-size:10px'>POP</p></td> \
-                                <td><p style='background-color:#ADD8E6;font-size:10px'>POP</p></td>\
-                                <td><p style='background-color:#98FB98;font-size:11px'>Türk Sanat Müziği</p></td>\
+                                <td><p style='background-color:#FFCC99;font-size:14px'>" + getCategoryName(radio,0) + "</p></td> \
+                                <td><p style='background-color:#CCFFCC;font-size:14px'>" + getCategoryName(radio, 1) + "</p></td>\
+                                <td><p style='background-color:#CCCCFF;font-size:14px'>" + getCategoryName(radio, 2) + "</p></td>\
                             </tr>\
                         </table>\
                     </a>\
                 </li>";
 
     return radioItem;
+}
+
+function getCategoryName(radio,index) {
+    return (radio.ListCategoryNames[index] != undefined) ? radio.ListCategoryNames[index] : "";
 }
