@@ -38,7 +38,7 @@ function getRadioItem(radio) {
                         <h style='margin-left:-20px;'>" + radio.RadioName + "</h> \
                         <table style='margin-left:-20px;;font-size:20px;'> \
                             <tr>\
-                                <td><p style='background-color:#FFCC99;font-size:14px'>" + getCategoryName(radio,0) + "</p></td> \
+                                <td><p style='background-color:#FFCC99;font-size:14px'>" + getCategoryName(radio, 0) + "</p></td> \
                                 <td><p style='background-color:#CCFFCC;font-size:14px'>" + getCategoryName(radio, 1) + "</p></td>\
                                 <td><p style='background-color:#CCCCFF;font-size:14px'>" + getCategoryName(radio, 2) + "</p></td>\
                             </tr>\
@@ -49,6 +49,6 @@ function getRadioItem(radio) {
     return radioItem;
 }
 
-function getCategoryName(radio,index) {
+function getCategoryName(radio, index) {
     return (radio.ListCategoryNames[index] != undefined) ? radio.ListCategoryNames[index] : "";
 }
