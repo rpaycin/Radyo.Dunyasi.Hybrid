@@ -31,17 +31,17 @@ namespace Radyyo.Dunyasi.PrepareData
                 new Radio { RadioName = "Damar FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/damarFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
                 new Radio { RadioName = "Damla FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/damlaFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
                 new Radio { RadioName = "Efkar", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/efkarRadyo.png", StreamUrl = "www.google.com" , IsImageLocal=false, IsShow=true},
-                new Radio { RadioName = "Gurbetçi FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "İmbat FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "İstanbul'un Sesi", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Kral FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Kral Türk FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Lokum FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Metropol FM Arabesk", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Radyo 2000", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Radyo 34", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Radyo Ahenk", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Radyo Dermam", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=false}
+                new Radio { RadioName = "Gurbetçi FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/gurbetciFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "İmbat FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/imbatFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "İstanbul'un Sesi", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/istanbulunSesi.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Kral FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/kralFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Kral Türk FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/kralTurkFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Lokum FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/lokumFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Metropol FM Arabesk", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/metropolFmArabesk.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Radyo 2000", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/radyo2000.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Radyo 34", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/radyo34.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Radyo Ahenk", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/radyoAhenk.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Radyo Dermam", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/radyoDerman.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=false}
             };
 
             for (int i = 0; i < radios.Count; i++)
@@ -58,7 +58,7 @@ namespace Radyyo.Dunyasi.PrepareData
             var listCategoryNames = new List<string>
             {
                 "80'ler","Akustik","Altenatif","Arabesk","Dini","Dünya Müzikleri","Elektronik","Görme Engelli","Haber","Halk Müziği","Hip-Hop","Jazz","Klasik Müzik",
-                "Lounge","Metal","Nostaljik","Pop","Popüler","Rock","Slow","Spor","Türk Sanat Müziği","Türkçe Pop"
+                "Lounge","Metal","Nostaljik","Pop","Popüler","Rock","Slow","Spor","TSM","Türkçe Pop"
             };
 
             for (int i = 0; i < listCategoryNames.Count; i++)

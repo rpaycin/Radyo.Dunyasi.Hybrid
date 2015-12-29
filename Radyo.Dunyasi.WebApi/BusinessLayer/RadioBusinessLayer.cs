@@ -15,18 +15,38 @@ namespace Radyo.Dunyasi.WebApi.BusinessLayer
 
         public Response<List<Radio>> GetRadios(int categoryId = -1)
         {
-            var listRadios = XmlOperations.ReadXml<List<Radio>>("radios.xml");
+            //tüm kategoriler
+            var listFullCategories = XmlOperations.ReadXml<List<Category>>("categories.xml");
+
+            //tüm radyolar
+            var listFullRadios = XmlOperations.ReadXml<List<Radio>>("radios.xml");
+
+            //kategoriye göre filtreleme
             if (categoryId > 0)
             {
                 var categoryRadioList = new List<Radio>();
-                listRadios.ForEach(r =>
+                listFullRadios.ForEach(r =>
                 {
                     if (r.ListCategories.Contains(categoryId))
                         categoryRadioList.Add(r);
                 });
-                listRadios = categoryRadioList;
+                listFullRadios = categoryRadioList;
             }
-            return CreateResponse(listRadios);
+
+            //kategori isimlerini alma
+            listFullRadios.ForEach(r =>
+            {
+                if (r.ListCategories != null && r.ListCategories.Count > 0)
+                {
+                    r.ListCategories.ForEach(cr => {
+                        Category category = listFullCategories.FirstOrDefault(c => c.Id == cr);
+                        if (category != null)
+                            r.ListCategoryNames.Add(category.Name);
+                    });
+                }
+            });
+
+            return CreateResponse(listFullRadios);
         }
     }
 }

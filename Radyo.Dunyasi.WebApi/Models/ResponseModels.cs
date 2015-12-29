@@ -50,5 +50,7 @@ namespace Radyo.Dunyasi.WebApi.Models
 
         [XmlArray("ListCategories")]
         public List<int> ListCategories { get; set; }
+
+        public List<string> ListCategoryNames { get; set; }
     }
 }
