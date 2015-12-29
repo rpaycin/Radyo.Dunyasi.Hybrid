@@ -25,7 +25,7 @@ namespace Radyyo.Dunyasi.PrepareData
             {
                 new Radio { RadioName = "Akdeniz FM", ListCategories = new List<int> { 4, 23 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
                 new Radio { RadioName = "Arabesk Radyo", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/arabeskRadyo.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Arabesk Türkiye", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/arabeskTürkiye.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
+                new Radio { RadioName = "Arabesk Türkiye", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/arabeskTurkiye.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
                 new Radio { RadioName = "Arabesk Vadisi", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/arabeskVadisi.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
                 new Radio { RadioName = "Aşk FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/askFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
                 new Radio { RadioName = "Damar FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/damarFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},

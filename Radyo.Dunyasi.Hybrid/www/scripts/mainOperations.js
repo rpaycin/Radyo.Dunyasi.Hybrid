@@ -1,12 +1,22 @@
-﻿$(function () {
+﻿$(document).on({
+    ajaxStart: function () {
+        $.mobile.loading('show');
+
+    },
+    ajaxStop: function () {
+        $.mobile.loading('hide');
+    }
+});
+
+$(function () {
     //ana menuyu sayfalara ekleme
     mainMenuAdd();
 
     //statusbari aşağı kaydırma ios için
     addHeaderMarginTop();
 
-    //var filter = $('#custom-allRadioList').prev();
-    //$('#custom-allRadioList').parent().append(filter);
+    //açılışta tüm radyoları getirme
+    getlistViewAllRadio();
 });
 
 function mainMenuAdd() {

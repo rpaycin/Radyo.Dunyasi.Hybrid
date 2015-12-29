@@ -6,25 +6,37 @@ var localImageURL = "images/radyolar/";
 
 var employees;
 
-$('#pageAllRadios').bind('pageinit', function (event) {
-    getlistViewAllRadio();
-});
+//$('#pageAllRadios').live('pageshow', function (event) {   //Workaround to show page loading on initial page load
+//    if (!mainloaded) {
+//        $.mobile.showPageLoadingMsg();
+//    }
+//});
+
+//$('#pageAllRadios').live('pagecreate', function (event) {
+//    getlistViewAllRadio();
+//});
 
 function getlistViewAllRadio() {
-    $.getJSON(serviceURL + 'radio/GetRadios', function (data) {
-        if (data.IsSuccess) {
-            $('#listViewAllRadio li').remove();
+    $.ajax({
+        url: serviceURL + 'radio/GetRadios',
+        dataType: 'json',
+        //data: data,
+        success: function (data) {
+            if (data.IsSuccess) {
+                $('#listViewAllRadio li').remove();
 
-            $.each(data.Value, function (index, radio) {
-                if (radio.IsShow) {
-                    $('#listViewAllRadio').append(getRadioItem(radio));
-                }
-            });
+                $.each(data.Value, function (index, radio) {
+                    if (radio.IsShow) {
+                        $('#listViewAllRadio').append(getRadioItem(radio));
+                    }
+                });
 
-            $('#listViewAllRadio').listview('refresh');
-        }
-        else
-            alert('radyo bilgileri alınamadı!');
+                $('#listViewAllRadio').listview('refresh');
+            }
+            else
+                alert('radyo bilgileri alınamadı!');
+        },
+        timeout: 5000 
     });
 }
 
