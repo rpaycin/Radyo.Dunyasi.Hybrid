@@ -16,6 +16,8 @@ $(function () {
 
     //açılışta tüm radyoları getirme
     getlistViewAllRadio();
+
+    // list hover .ui-btn.ui-btn-a:hover
 });
 
 function mainMenuAdd() {
