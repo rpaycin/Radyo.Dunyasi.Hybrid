@@ -39,3 +39,8 @@ function addHeaderMarginTop() {
         $("#panelCategories").css("margin-top", px);
     }
 }
+
+function AddScroll(wrapperName) {
+    myScroll = new IScroll('#' + wrapperName, { mouseWheel: true });
+    document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+}

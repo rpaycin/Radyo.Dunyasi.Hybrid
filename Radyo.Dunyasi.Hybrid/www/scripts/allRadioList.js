@@ -20,6 +20,7 @@ function getlistViewAllRadio() {
                 });
 
                 $('#listViewAllRadio').listview('refresh');
+                AddScroll("wrapperRadioList");
             }
             else
                 alert('radyo bilgileri alınamadı!');
