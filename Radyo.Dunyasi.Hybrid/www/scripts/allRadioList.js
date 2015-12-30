@@ -4,18 +4,6 @@ var serviceURL = serverUrl + "api/";
 var serverImageURL = serverUrl + "Contents/Images/Radyolar/";
 var localImageURL = "images/radyolar/";
 
-var employees;
-
-//$('#pageAllRadios').live('pageshow', function (event) {   //Workaround to show page loading on initial page load
-//    if (!mainloaded) {
-//        $.mobile.showPageLoadingMsg();
-//    }
-//});
-
-//$('#pageAllRadios').live('pagecreate', function (event) {
-//    getlistViewAllRadio();
-//});
-
 function getlistViewAllRadio() {
     $.ajax({
         url: serviceURL + 'radio/GetRadios',
@@ -36,7 +24,7 @@ function getlistViewAllRadio() {
             else
                 alert('radyo bilgileri alınamadı!');
         },
-        timeout: 5000 
+        timeout: 30000 
     });
 }
 

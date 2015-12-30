@@ -1,7 +1,6 @@
 ﻿$(document).on({
     ajaxStart: function () {
-        $.mobile.loading('show');
-
+        $.mobile.loading('show', { theme: "b", text: "Lütfen Bekleyiniz..." });
     },
     ajaxStop: function () {
         $.mobile.loading('hide');
