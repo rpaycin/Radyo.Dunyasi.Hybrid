@@ -15,7 +15,7 @@ $(function () {
         radio.imageUrl = $(this).attr('radioImageUrl');
         radio.radioName = $(this).find("#hRadioName").text();
 
-        $.mobile.changePage("#pageRadioPlay");
+        $.mobile.changePage("#pageRadioPlay", { transition: 'slide' });
     });
 });
 
