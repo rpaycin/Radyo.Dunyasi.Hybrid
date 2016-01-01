@@ -39,6 +39,7 @@ function addHeaderMarginTop() {
         $("#panelAllRadios").css("margin-top", px);
         $("#headerCategories").css("margin-top", px);
         $("#panelCategories").css("margin-top", px);
+        $("#headerRadioPlay").css("margin-top", px);
         $(".wrapperList").css("top", "65px");
     }
 }
