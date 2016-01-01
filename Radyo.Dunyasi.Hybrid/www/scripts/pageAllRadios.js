@@ -10,24 +10,16 @@ $(function () {
 
 });
 
-// Store object
-var storeObject = {
-    firstname: '',
-    lastname: ''
-}
-
+//radyo listesinden herhangi bir radyoya basıldığı zaman
 $(document).on('pagebeforeshow', '#pageAllRadios', function () {
     $(document).on('vclick', '.radyoItem', function () {
-        // store some data
-        storeObject.firstname = 'Dragan';
-        storeObject.lastname = 'Gaic';
-        //Change page
+       
+        radio.radioUrl = $(this).attr('radioUrl');
+        radio.imageUrl = $(this).attr('radioImageUrl');
+        radio.radioName = $(this).find("#hRadioName").text();
+        
         $.mobile.changePage("#pageRadioPlay");
     });
-});
-
-$(document).on('pagebeforeshow', '#pageRadioPlay', function () {
-    alert('My name is ' + storeObject.firstname + ' ' + storeObject.lastname);
 });
 
 function getlistViewAllRadio() {
@@ -60,9 +52,9 @@ function getRadioItem(radio) {
     imageUrl = imageUrl + radio.IconUrl;
 
     var radioItem = "<li data-icon='false'> \
-                    <a class='radyoItem'> \
+                    <a class='radyoItem' radioUrl=" + radio.StreamUrl + "  radioImageUrl=" + imageUrl + "> \
                         <img src='" + imageUrl + "' class='circleImage'> \
-                        <h style='margin-left:-20px;'>" + radio.RadioName + "</h> \
+                        <h style='margin-left:-20px;' id='hRadioName'>" + radio.RadioName + "</h> \
                         <table style='margin-left:-20px;;font-size:20px;'> \
                             <tr>\
                                 <td><p style='background-color:#FFCC99;font-size:14px'>" + getCategoryName(radio, 0) + "</p></td> \
