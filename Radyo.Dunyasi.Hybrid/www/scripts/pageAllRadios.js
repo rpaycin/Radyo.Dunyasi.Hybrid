@@ -23,14 +23,7 @@ function getlistViewAllRadio() {
                         $('#listViewAllRadio').append(getRadioItem(radio));
                     }
                 });
-
-                //radyo itembasıldığı zaman
-                $("#listViewAllRadio").on("click", "a", function () {
-                    //SetValueLocal("radioName", "Arabesk Radyo");
-                    alert('test');
-                    //$.mobile.changePage('#radioPlay');
-                });
-
+                
                 $('#listViewAllRadio').listview('refresh');
                 AddScroll("wrapperRadioList");
             }
