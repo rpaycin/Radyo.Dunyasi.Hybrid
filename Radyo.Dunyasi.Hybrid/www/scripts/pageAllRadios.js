@@ -8,16 +8,13 @@ $(function () {
     //açılışta tüm radyoları getirme
     getlistViewAllRadio();
 
-});
-
-//radyo listesinden herhangi bir radyoya basıldığı zaman
-$(document).on('pagebeforeshow', '#pageAllRadios', function () {
+    //radyo item basıldığı zaman
     $(document).on('vclick', '.radyoItem', function () {
-       
+
         radio.radioUrl = $(this).attr('radioUrl');
         radio.imageUrl = $(this).attr('radioImageUrl');
         radio.radioName = $(this).find("#hRadioName").text();
-        
+
         $.mobile.changePage("#pageRadioPlay");
     });
 });
