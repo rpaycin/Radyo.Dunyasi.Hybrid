@@ -9,6 +9,27 @@ $(function () {
     getlistViewAllRadio();
 
 });
+
+// Store object
+var storeObject = {
+    firstname: '',
+    lastname: ''
+}
+
+$(document).on('pagebeforeshow', '#pageAllRadios', function () {
+    $(document).on('click', '#listViewAllRadio li', function () {
+        // store some data
+        storeObject.firstname = 'Dragan';
+        storeObject.lastname = 'Gaic';
+        //Change page
+        $.mobile.changePage("#pageRadioPlay");
+    });
+});
+
+$(document).on('pagebeforeshow', '#pageRadioPlay', function () {
+    alert('My name is ' + storeObject.firstname + ' ' + storeObject.lastname);
+});
+
 function getlistViewAllRadio() {
     $.ajax({
         url: serviceURL + 'radio/GetRadios',
@@ -39,7 +60,7 @@ function getRadioItem(radio) {
     imageUrl = imageUrl + radio.IconUrl;
 
     var radioItem = "<li data-icon='false'> \
-                    <a href='#pageRadioPlay' data-transition='slide'> \
+                    <a> \
                         <img src='" + imageUrl + "' class='circleImage'> \
                         <h style='margin-left:-20px;'>" + radio.RadioName + "</h> \
                         <table style='margin-left:-20px;;font-size:20px;'> \
