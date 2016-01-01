@@ -6,6 +6,14 @@
     font-style: normal;
 }
 
+.activeLI .ui-btn {
+    background-color: #CFF09E !important;
+}
+.activeLI .ui-btn:hover {
+    background-color: #A8DBA8 !important;
+
+}
+
 .demo-wrapper {
     background-color: #fff;
 }

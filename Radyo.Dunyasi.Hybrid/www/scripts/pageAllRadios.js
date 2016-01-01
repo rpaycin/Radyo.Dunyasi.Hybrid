@@ -4,6 +4,16 @@ var serviceURL = serverUrl + "api/";
 var serverImageURL = serverUrl + "Contents/Images/Radyolar/";
 var localImageURL = "images/radyolar/";
 
+$(function () {
+    //açılışta tüm radyoları getirme
+    getlistViewAllRadio();
+
+    //radyo itembasıldığı zaman
+    $("#listViewAllRadio").on("click", "li", function () {
+        //SetValueLocal("radioName", "Arabesk Radyo");
+        $.mobile.changePage('#radioPlay');
+    });
+});
 function getlistViewAllRadio() {
     $.ajax({
         url: serviceURL + 'radio/GetRadios',
@@ -34,7 +44,7 @@ function getRadioItem(radio) {
     imageUrl = imageUrl + radio.IconUrl;
 
     var radioItem = "<li data-icon='false'> \
-                    <a href='#radioPlay'> \
+                    <a> \
                         <img src='" + imageUrl + "' class='circleImage'> \
                         <h style='margin-left:-20px;'>" + radio.RadioName + "</h> \
                         <table style='margin-left:-20px;;font-size:20px;'> \

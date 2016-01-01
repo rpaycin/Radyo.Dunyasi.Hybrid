@@ -13,11 +13,6 @@ $(function () {
 
     //statusbari aşağı kaydırma ios için
     addHeaderMarginTop();
-
-    //açılışta tüm radyoları getirme
-    getlistViewAllRadio();
-
-    // list hover .ui-btn.ui-btn-a:hover
 });
 
 function mainMenuAdd() {
@@ -47,4 +42,17 @@ function addHeaderMarginTop() {
 function AddScroll(wrapperName) {
     myScroll = new IScroll('#' + wrapperName, { mouseWheel: true });
     document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+}
+
+function SetValueLocal(key,value) {
+    if (typeof (Storage) !== "undefined") {
+        localStorage.setItem(key,value);
+    } 
+}
+
+function GetValueLocal(key) {
+    if (typeof (Storage) !== "undefined") {
+        return localStorage.getItem(key)
+    }
+    return "";
 }
