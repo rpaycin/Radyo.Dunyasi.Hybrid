@@ -12,7 +12,7 @@ $(function () {
     $("#listViewAllRadio").on("click", "li", function () {
         //SetValueLocal("radioName", "Arabesk Radyo");
         alert('test');
-        $.mobile.changePage('#radioPlay');
+        //$.mobile.changePage('#radioPlay');
     });
 });
 function getlistViewAllRadio() {
