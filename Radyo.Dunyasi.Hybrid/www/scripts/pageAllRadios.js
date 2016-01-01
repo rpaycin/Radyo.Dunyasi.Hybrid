@@ -8,12 +8,6 @@ $(function () {
     //açılışta tüm radyoları getirme
     getlistViewAllRadio();
 
-    //radyo itembasıldığı zaman
-    $("#listViewAllRadio").on("click", "a", function () {
-        //SetValueLocal("radioName", "Arabesk Radyo");
-        alert('test');
-        //$.mobile.changePage('#radioPlay');
-    });
 });
 function getlistViewAllRadio() {
     $.ajax({
@@ -28,6 +22,13 @@ function getlistViewAllRadio() {
                     if (radio.IsShow) {
                         $('#listViewAllRadio').append(getRadioItem(radio));
                     }
+                });
+
+                //radyo itembasıldığı zaman
+                $("#listViewAllRadio").on("click", "a", function () {
+                    //SetValueLocal("radioName", "Arabesk Radyo");
+                    alert('test');
+                    //$.mobile.changePage('#radioPlay');
                 });
 
                 $('#listViewAllRadio').listview('refresh');
