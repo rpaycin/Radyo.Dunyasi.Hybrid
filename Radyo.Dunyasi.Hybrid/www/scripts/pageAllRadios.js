@@ -60,7 +60,7 @@ function getRadioItem(radio) {
     imageUrl = imageUrl + radio.IconUrl;
 
     var radioItem = "<li data-icon='false'> \
-                    <a> \
+                    <a class='radyoItem'> \
                         <img src='" + imageUrl + "' class='circleImage'> \
                         <h style='margin-left:-20px;'>" + radio.RadioName + "</h> \
                         <table style='margin-left:-20px;;font-size:20px;'> \
