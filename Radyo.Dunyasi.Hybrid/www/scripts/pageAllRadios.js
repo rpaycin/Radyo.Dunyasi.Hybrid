@@ -6,7 +6,7 @@ var localImageURL = "images/radyolar/";
 
 $(function () {
     //açılışta tüm radyoları getirme
-    getlistViewAllRadio();
+    //getlistViewAllRadio();
 
 });
 function getlistViewAllRadio() {
