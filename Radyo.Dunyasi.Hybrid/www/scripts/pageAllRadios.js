@@ -17,7 +17,7 @@ var storeObject = {
 }
 
 $(document).on('pagebeforeshow', '#pageAllRadios', function () {
-    $(document).on('click', '.radyoItem', function () {
+    $(document).on('vclick', '.radyoItem', function () {
         // store some data
         storeObject.firstname = 'Dragan';
         storeObject.lastname = 'Gaic';
