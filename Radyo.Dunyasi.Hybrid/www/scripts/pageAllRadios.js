@@ -24,13 +24,6 @@ function getlistViewAllRadio() {
                     }
                 });
 
-                //radyo itembasıldığı zaman
-                $("#listViewAllRadio").on("click", "li", function () {
-                    //SetValueLocal("radioName", "Arabesk Radyo");
-                    alert('test');
-                    //$.mobile.changePage('#radioPlay');
-                });
-
                 $('#listViewAllRadio').listview('refresh');
                 AddScroll("wrapperRadioList");
             }
@@ -46,6 +39,7 @@ function getRadioItem(radio) {
     imageUrl = imageUrl + radio.IconUrl;
 
     var radioItem = "<li data-icon='false'> \
+                    <a href='#pageRadioPlay'> \
                         <img src='" + imageUrl + "' class='circleImage'> \
                         <h style='margin-left:-20px;'>" + radio.RadioName + "</h> \
                         <table style='margin-left:-20px;;font-size:20px;'> \
@@ -55,6 +49,7 @@ function getRadioItem(radio) {
                                 <td><p style='background-color:#CCCCFF;font-size:14px'>" + getCategoryName(radio, 2) + "</p></td>\
                             </tr>\
                         </table>\
+                    </a>\
                 </li>";
 
     return radioItem;
