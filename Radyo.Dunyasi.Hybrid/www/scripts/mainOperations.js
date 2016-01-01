@@ -19,7 +19,7 @@ $(function () {
     };
 
     function onPause() {
-        alert('pause');
+        audioPlay();
     };
 
     function onResume() {
