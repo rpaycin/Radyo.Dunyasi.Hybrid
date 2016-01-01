@@ -16,30 +16,12 @@
  * specific language governing permissions and limitations
  * under the License.
  *
- */
+*/
 
-var cordova = require('cordova');
-
-function notSupported() {
-    console.log('StatusBar is not supported');
-    return false;
+if (!document.querySelector('meta[http-equiv=Content-Security-Policy]')) {
+    var msg = 'No Content-Security-Policy meta tag found. Please add one when using the cordova-plugin-whitelist plugin.';
+    console.error(msg);
+    setInterval(function() {
+        console.warn(msg);
+    }, 10000);
 }
-
-module.exports = {
-    isVisible: false,
-    styleBlackTranslucent:notSupported,
-    styleDefault:notSupported,
-    styleLightContent:notSupported,
-    styleBlackOpaque:notSupported,
-    overlaysWebView:notSupported,
-    overlaysWebView: notSupported,
-    styleDefault: notSupported,
-    styleLightContect: notSupported,
-    styleBlackTranslucent: notSupported,
-    styleBlackOpaque: notSupported,
-    backgroundColorByName: notSupported,
-    backgroundColorByHexString: notSupported,
-    hide: notSupported,
-    show: notSupported
-};
-

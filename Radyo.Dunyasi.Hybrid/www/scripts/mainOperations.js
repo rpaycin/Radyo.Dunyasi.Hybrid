@@ -1,10 +1,30 @@
-﻿$(document).on({
+﻿
+//jquery ajax ayarları
+$(document).on({
     ajaxStart: function () {
         $.mobile.loading('show', { theme: "b", text: "Lütfen Bekleyiniz..." });
     },
     ajaxStop: function () {
         $.mobile.loading('hide');
     }
+});
+
+//cihaz ready, pause ve resume eventleri
+$(function () {
+    document.addEventListener('deviceready', onDeviceReady.bind(this), false);
+
+    function onDeviceReady() {
+        document.addEventListener('pause', onPause.bind(this), false);
+        document.addEventListener('resume', onResume.bind(this), false);
+    };
+
+    function onPause() {
+        alert('pause');
+    };
+
+    function onResume() {
+        alert('resume');
+    };
 });
 
 $(function () {
