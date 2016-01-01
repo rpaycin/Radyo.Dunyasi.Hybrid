@@ -9,7 +9,7 @@ $(function () {
     getlistViewAllRadio();
 
     //radyo itembasıldığı zaman
-    $("#listViewAllRadio").on("click", "li", function () {
+    $("#listViewAllRadio").on("click", "a", function () {
         //SetValueLocal("radioName", "Arabesk Radyo");
         alert('test');
         //$.mobile.changePage('#radioPlay');
