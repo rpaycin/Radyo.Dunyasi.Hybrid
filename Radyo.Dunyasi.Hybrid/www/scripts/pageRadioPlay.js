@@ -79,7 +79,7 @@ function audioPlay() {
     }, false);
     myaudio.addEventListener("ended", function () {
         //console.log('myaudio ENDED');
-        audioStop();
+        //audioStop();
         // navigator.notification.alert('Streaming failed. Possibly due to a network error.', null, 'Stream error', 'OK');
         // navigator.notification.confirm(
         //	'Streaming failed. Possibly due to a network error.', // message

@@ -10,6 +10,7 @@ $(function () {
 
     //radyo item basıldığı zaman
     $(document).on('vclick', '.radyoItem', function () {
+        audioStop();
 
         radio.radioUrl = $(this).attr('radioUrl');
         radio.imageUrl = $(this).attr('radioImageUrl');
