@@ -119,4 +119,5 @@
   <preference name="SuppressesIncrementalRendering" value="True" />
   <preference name="StatusBarBackgroundColor" value="#000000" />
   <vs:plugin name="cordova-plugin-splashscreen" version="3.0.0" />
+  <vs:plugin name="nl.kingsquare.cordova.background-audio" version="1.0.1" src="https://github.com/AubreyHewes/cordova-background-audio.git" />
 </widget>
