@@ -3,7 +3,7 @@
     //alert(radio.radioUrl + ' ' + radio.imageUrl + ' ' + radio.radioName);
 
     //test
-    radio.radioUrl = 'http://radyo.performanshosting.com:9170/;';
+    radio.radioUrl = 'http://allergo.serverroom.us:8127/;';
 
     SetValueLocal("RadioUrl", radio.radioUrl);
 

@@ -19,9 +19,6 @@ $(function () {
     };
 
     function onPause() {
-        //alert('pause');
-        //audioStop();
-        //audioPlay();
     };
 
     function onResume() {
