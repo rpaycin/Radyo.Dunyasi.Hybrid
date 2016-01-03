@@ -114,7 +114,7 @@
   <preference name="ShowTitle" value="True" />
   <preference name="target-device" value="handset" />
   <preference name="deployment-target" value="7.1" />
-  <preference name="KeepRunning" value="false" />
+  <preference name="KeepRunning" value="True" />
   <preference name="InAppBrowserStorageEnabled" value="True" />
   <preference name="SuppressesIncrementalRendering" value="True" />
   <preference name="StatusBarBackgroundColor" value="#000000" />
