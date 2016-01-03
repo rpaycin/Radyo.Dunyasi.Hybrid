@@ -1,107 +1,29 @@
 ﻿<!DOCTYPE html>
 <html>
-
 <head>
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
 
-    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
-    <link rel="stylesheet" href="css/style.mobile.css" />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/iscrollCustom.css">
+    <title>Accelerator</title>
 
-    <script src="scripts/jquery-1.11.3.min.js"></script>
-    <script src="scripts/jquery.mobile-1.4.5.min.js"></script>
-
-    <script src="scripts/common.js"></script>
-
-    <script type="text/javascript" src="scripts/iscroll.js"></script>
-</head>
-<body>
-    <!--Tüm radyo listesi-->
-    <div class="demo-wrapper" data-role="page" id="pageAllRadios">
-        <div class="panel left" data-role="panel" data-position="left" data-display="push" id="panelAllRadios"></div>
-
-        <div class="header" data-role="header" id="headerAllRadios">
-            <span class="open left"><a href="#panelAllRadios">&#61641;</a></span>
-            <span class="title" style="">Tüm Radyolar</span>
-        </div>
-
-        <div class="content" data-role="content" data-theme="a">
-            <div class="wrapperList" id="wrapperRadioList">
-                <div id="scroller">
-                    <ul data-role="listview" data-filter="true" data-filter-placeholder="Tüm Radyolarda Ara" id="listViewAllRadio">
-                        <!--<li data-icon="false" >
-                            <a class="radyoItem">
-                                <img src="http://images.nationalgeographic.com/wpf/media-live/photos/000/007/cache/spider-monkey_719_600x450.jpg" class="circleImage">
-                                <h style="margin-left:-20px;font-size:20px;">asda</h>
-                                <table style="margin-left:-20px;">
-                                    <tr>
-                                        <td><p style="background-color:#FFCC99;font-size:14px">POP</p></td>
-                                        <td><p style="background-color:#CCCCFF;font-size:14px">POP</p></td>
-                                        <td><p style="background-color:#CCFFCC;font-size:14px">Türk Sanat Müziği</p></td>
-                                    </tr>
-                                </table>
-                            </a>
-                        </li>-->
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--radyo play-->
-    <div class="demo-wrapper" data-role="page" id="pageRadioPlay">
-
-        <div class="header" data-role="header" id="headerRadioPlay">
-            <span class="title" id="spanRadioName">Radyo Adı</span>
-            <a href="#" data-rel="back" style="margin-top:7px;" data-transition="slide" data-direction="reverse"
-               class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Back</a>
-        </div>
-
-        <div class="content" data-role="content">
-            <div id="playcontrols">
-                <a href="#" id="playbutton" onClick="audioPlay(); return false;"><img src="images/playbutton.png" /></a>
-                <a href="#" id="activityindicator" onClick="audioPause; return false;"><img src="images/activityindicator.gif" /></a>
-                <a href="#" id="stopbutton" onClick="audioStop(); return false;"><img src="images/stopbutton.png" /></a>
-            </div>
-
-            <style type="text/css">
-                #playcontrols {
-                    text-align: center;
-                    margin-top: 50px;
-                }
-
-                    #playcontrols #activityindicator, #playcontrols #stopbutton {
-                        display: none;
-                    }
-
-                #textpositiondiv {
-                    margin-top: 100px;
-                }
-            </style>
-        </div>
-    </div>
-
-    <!--Kategoriler-->
-    <div class="demo-wrapper" data-role="page" id="pageCategories">
-        <div class="panel left" data-role="panel" data-position="left" data-display="push" id="panelCategories"></div>
-
-        <div class="header" data-role="header" id="headerCategories">
-            <span class="open left"><a href="#panelCategories">&#61641;</a></span>
-            <span class="title">Kategoriler</span>
-        </div>
-
-        <div class="content" data-role="content">
-        </div>
-    </div>
+    <!-- Accelerator references -->
+    <link href="css/index.css" rel="stylesheet" />
 
     <!-- Cordova reference, this is added to your app when it's built. -->
     <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
 
-    <script src="scripts/models.js"></script>
-    <script src="scripts/mainOperations.js"></script>
-    <script src="scripts/pageAllRadios.js"></script>
-    <script src="scripts/pageRadioPlay.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/acceleration.js"></script>
+</head>
+<body>
+    <!--Cihaz sallamayı test etmek için ripple dan Shake butonuna basıp simule edebilirsin-->
+    <p>Accelerator(Cihazı Sallama) Örneği</p>
+
+    <div id="divAcceleration">Cihazın sallanması bekleniyor</div><br />
+
+    <button onclick="getAcceleration()">Sallama Durumunu Al</button><br />
+    <button onclick="startWatchAccelerator()">Sallamayı İzle</button><br />
+    <button onclick="stopWatchAccelerator()">Sallama İzlemeyi Durdu</button><br />
+
 </body>
 </html>
