@@ -55,35 +55,35 @@
     <div class="demo-wrapper" data-role="page" id="pageRadioPlay">
 
         <div class="header" data-role="header" id="headerRadioPlay">
-            <span class="title" id="spanRadioName">Radyo Adı</span>
+            <span class="title" id="spanCategoryName"></span>
             <a href="#" data-rel="back" style="margin-top:7px;" data-transition="slide" data-direction="reverse"
                class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Back</a>
         </div>
 
-        <div class="content" data-role="content" style="background-image:url(images/radioBackground.jpg);background-size:100%;">
-
-            <div class="audio-player" >
-                <h1>Demo - Preview Song</h1>
-                <a href="#" id="playbutton" onClick="audioPlay(); return false;"><img src="images/playbutton.png" /></a>
-                <a href="#" id="activityindicator" onClick="audioPause; return false;"><img src="images/activityindicator.gif" /></a>
-                <a href="#" id="stopbutton" onClick="audioStop(); return false;"><img src="images/stopbutton.png" /></a>
-                <img class="cover" src="img/cover.png" style="width:100px;height:114px;">
+        <div data-role="content" id="playerBackground">
+            <div class="audio-player" style="margin-top:40%;margin-bottom:60%; ">
+                <table>
+                    <tr>
+                        <td >
+                            <img class="cover" id="imgRadioStation"></td>
+                        <td >
+                            <h1 id="hRadioStation"></h1></td>
+                    </tr>
+                </table>
+                <br />
+                <div style="margin-left:45%;">
+                    <a href="#" id="playbutton" onClick="audioPlay(); return false;"><img src="images/playbutton.png" /></a>
+                    <a href="#" id="activityindicator" onClick="audioPause; return false;"><img src="images/activityindicator.gif" /></a>
+                    <a href="#" id="stopbutton" onClick="audioStop(); return false;"><img src="images/stopbutton.png" /></a>
+                </div>
+                <div data-role="rangeslider" data-track-theme="a" >
+                    <input name="range-4a" id="range-4a" min="0" max="100" value="0" type="range" />
+                </div>
             </div>
+        </div>
 
-            <!--<style type="text/css">
-                #playcontrols {
-                    text-align: center;
-                    margin-top: 50px;
-                }
-
-                    #playcontrols #activityindicator, #playcontrols #stopbutton {
-                        display: none;
-                    }
-
-                #textpositiondiv {
-                    margin-top: 100px;
-                }
-            </style>-->
+        <div data-role="footer">
+            <h1>Footer Text</h1>
         </div>
     </div>
 

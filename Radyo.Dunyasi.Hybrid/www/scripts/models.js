@@ -2,5 +2,6 @@
 var radio = {
     radioUrl: '',
     imageUrl: '',
-    radioName:''
+    radioName: '',
+    categoryName: ''
 }

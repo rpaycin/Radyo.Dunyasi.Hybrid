@@ -1,5 +1,7 @@
 ﻿$(document).on('pagebeforeshow', '#pageRadioPlay', function () {
-    $("#spanRadioName").text(radio.radioName);
+    $("#spanCategoryName").text(radio.categoryName);
+    $("#hRadioStation").text(radio.radioName);
+    $("#imgRadioStation").attr('src', radio.imageUrl);
     //alert(radio.radioUrl + ' ' + radio.imageUrl + ' ' + radio.radioName);
 
     //test
