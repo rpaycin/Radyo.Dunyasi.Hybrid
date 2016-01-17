@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--jquery-->
+    <script src="scripts/jquery/jquery-1.11.3.min.js"></script>
+    <script src="scripts/jquery/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="css/jquery/jquery.mobile-1.4.5.min.css">
+
+    <!--genel css-->
+    <link rel="stylesheet" href="css/style.mobile.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--iscroll-->
+    <link rel="stylesheet" href="css/iscroll/iscrollCustom.css">
+    <script type="text/javascript" src="scripts/iscroll/iscroll.js"></script>
+
+    <!--audio player-->
+    <script src="scripts/jplayer/jquery.jplayer.min.js"></script>
+    <link rel="stylesheet" href="css/jplayer/pink.flag/css/jplayer.pink.flag.min.css">
+
+</head>
+<body>
+    <!--Tüm radyo listesi-->
+    <div class="demo-wrapper" data-role="page" id="pageAllRadios">
+        <div class="panel left" data-role="panel" data-position="left" data-display="push" id="panelAllRadios"></div>
+
+        <div class="header" data-role="header" id="headerAllRadios">
+            <span class="open left"><a href="#panelAllRadios">&#61641;</a></span>
+            <span class="title" style="">Tüm Radyolar</span>
+        </div>
+
+        <div class="content" data-role="content" data-theme="a">
+            <div class="wrapperList" id="wrapperRadioList">
+                <div id="scroller">
+                    <ul data-role="listview" data-filter="true" data-filter-placeholder="Tüm Radyolarda Ara" id="listViewAllRadio">
+                        <!--<li data-icon="false" >
+                            <a class="radyoItem">
+                                <img src="http://images.nationalgeographic.com/wpf/media-live/photos/000/007/cache/spider-monkey_719_600x450.jpg" class="circleImage">
+                                <h style="margin-left:-20px;font-size:20px;">asda</h>
+                                <table style="margin-left:-20px;">
+                                    <tr>
+                                        <td><p style="background-color:#FFCC99;font-size:14px">POP</p></td>
+                                        <td><p style="background-color:#CCCCFF;font-size:14px">POP</p></td>
+                                        <td><p style="background-color:#CCFFCC;font-size:14px">Türk Sanat Müziği</p></td>
+                                    </tr>
+                                </table>
+                            </a>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--radyo play-->
+    <div class="demo-wrapper" data-role="page" id="pageRadioPlay">
+
+        <div class="header" data-role="header" id="headerRadioPlay">
+
+            <span class="title" id="spanCategoryName"></span>
+            <a href="#" data-rel="back" style="margin-top:7px;" data-transition="slide" data-direction="reverse"
+               class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Back</a>
+        </div>
+
+        <div data-role="content">
+            <!--player-->
+            <div id="jplayerRadio" class="jp-jplayer"></div>
+            <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+                <div class="jp-type-single">
+                    <div class="jp-gui jp-interface">
+                        <div class="jp-volume-controls">
+                            <button class="jp-mute" role="button" tabindex="0">mute</button>
+                            <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+                            <div class="jp-volume-bar">
+                                <div class="jp-volume-bar-value"></div>
+                            </div>
+                        </div>
+                        <div class="jp-controls-holder">
+                            <div class="jp-controls">
+                                <button class="jp-play" role="button" tabindex="0">play</button>
+                                <button class="jp-stop" role="button" tabindex="0">stop</button>
+                            </div>
+                            <div class="jp-progress">
+                                <div class="jp-seek-bar">
+                                    <div class="jp-play-bar"></div>
+                                </div>
+                            </div>
+                            <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+                            <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+                            <div class="jp-toggles">
+                                <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jp-details">
+                        <div class="jp-title" aria-label="title">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+            <!--player bitti-->
+        </div>
+
+        <div data-role="footer">
+            <h1>Footer Text</h1>
+        </div>
+    </div>
+
+    <!--Kategoriler-->
+    <div class="demo-wrapper" data-role="page" id="pageCategories">
+        <div class="panel left" data-role="panel" data-position="left" data-display="push" id="panelCategories"></div>
+
+        <div class="header" data-role="header" id="headerCategories">
+            <span class="open left"><a href="#panelCategories">&#61641;</a></span>
+            <span class="title">Kategoriler</span>
+        </div>
+
+        <div class="content" data-role="content">
+        </div>
+    </div>
+
+    <!--script-->
+    <script src="scripts/common.js"></script>
+    <script src="scripts/modelsAndVariables.js"></script>
+    <script src="scripts/mainOperations.js"></script>
+    <script src="scripts/pageAllRadios.js"></script>
+    <script src="scripts/pageRadioPlay.js"></script>
+</body>
+</html>
