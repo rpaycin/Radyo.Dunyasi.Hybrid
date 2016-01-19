@@ -1,16 +1,10 @@
-﻿var serverUrl = "http://212.98.202.29/StokTakip/";
-var serviceURL = serverUrl + "api/";
-
-var serverImageURL = serverUrl + "Contents/Images/Radyolar/";
-var localImageURL = "images/radyolar/";
-
-$(document).on('pageinit', '#pageAllRadios', function () {  
+﻿$(document).on('pageinit', '#pageAllRadios', function () {
     //açılışta tüm radyoları getirme
-    getlistViewAllRadio();
-
+    getlistViewAllRadio(true, -1);
+    
     //radyo item basıldığı zaman
     $(document).on('vclick', '.radyoItem', function () {
-        audioPlayerPlayorStop(false,'');
+        audioPlayStop(false, '');
 
         radio.radioUrl = $(this).attr('radioUrl');
         radio.imageUrl = $(this).attr('radioImageUrl');
@@ -21,11 +15,23 @@ $(document).on('pageinit', '#pageAllRadios', function () {
     });
 });
 
-function getlistViewAllRadio() {
+$(document).on('pagebeforeshow', '#pageAllRadios', function () {
+    if (!isWorkAllRadio) {
+        getlistViewAllRadio(isAllCategory, category.categoryId);
+
+        category.categoryId = -1;
+
+        isAllCategory = true;
+        isWorkAllRadio = true;
+    }
+});
+
+function getlistViewAllRadio(isAll, categoryId) {
+    var methodUrl = isAll ? 'radio/GetRadios' : 'radio/GetRadiosByCategoryId?categoryId=' + categoryId;
+
     $.ajax({
-        url: serviceURL + 'radio/GetRadios',
+        url: serviceURL + methodUrl,
         dataType: 'json',
-        //data: data,
         success: function (data) {
             if (data.IsSuccess) {
                 $('#listViewAllRadio li').remove();
@@ -35,7 +41,7 @@ function getlistViewAllRadio() {
                         $('#listViewAllRadio').append(getRadioItem(radio));
                     }
                 });
-                
+
                 $('#listViewAllRadio').listview('refresh');
                 AddScroll("wrapperRadioList");
             }
@@ -44,7 +50,7 @@ function getlistViewAllRadio() {
         },
         error: function (xhr, ajaxOptions, thrownError) {
         },
-        timeout: 30000 
+        timeout: 30000
     });
 }
 

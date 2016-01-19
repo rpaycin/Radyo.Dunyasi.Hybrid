@@ -38,7 +38,7 @@ function GetValueLocal(key) {
 }
 
 //audio play and stop
-function audioPlayerPlayorStop(isPlay, radioTitle) {
+function audioPlayStop(isPlay, radioTitle) {
     if (isPlay) {
         var radioUrl = GetValueLocal(localRadioUrl);
 
