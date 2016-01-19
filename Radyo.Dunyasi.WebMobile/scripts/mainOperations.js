@@ -11,8 +11,9 @@ $(document).on({
 
 //cihaz ready, pause ve resume eventleri
 $(function () {
+    //radioplayer başlangıç
     $("#jplayerRadio").jPlayer({
-  
+
         swfPath: "../../dist/jplayer",
         supplied: "m4a, oga, mp3",
         useStateClassSkin: true,
@@ -21,6 +22,22 @@ $(function () {
         keyEnabled: true,
         remainingDuration: true,
         toggleDuration: true
+    });
+
+    //radioplayer content
+    $(document).on("pageshow", "#pageRadioPlay", function () {
+        $('#radioPlayerContent').css('margin-top', ($(window).height() - $('[data-role=header]').height() - $('[data-role=footer]').height() - $('#radioPlayerContent').outerHeight()) / 2);
+    });
+
+    $(document).on('vclick', '.radyoItem', function () {
+        audioPlayerPlayorStop(false, '');
+
+        radio.radioUrl = $(this).attr('radioUrl');
+        radio.imageUrl = $(this).attr('radioImageUrl');
+        radio.radioName = $(this).find("#hRadioName").text();
+        radio.categoryName = $(this).find("#pCategoryName").text();
+
+        $.mobile.changePage("#pageRadioPlay", { transition: 'slide' });
     });
 
     document.addEventListener('deviceready', onDeviceReady.bind(this), false);
@@ -65,6 +82,6 @@ function addHeaderMarginTop() {
         $("#headerCategories").css("margin-top", px);
         $("#panelCategories").css("margin-top", px);
         $("#headerRadioPlay").css("margin-top", px);
-        $(".wrapperList").css("top", "65px");
+        //$(".wrapperList").css("top", "65px");
     }
 }

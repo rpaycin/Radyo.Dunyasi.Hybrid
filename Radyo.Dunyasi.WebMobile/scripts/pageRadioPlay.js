@@ -1,6 +1,6 @@
 ﻿$(document).on('pagebeforeshow', '#pageRadioPlay', function () {
     $("#spanCategoryName").text(radio.categoryName);
-    //$("#imgRadioStation").attr('src', radio.imageUrl);
+    $("#imgRadioStation").attr('src', radio.imageUrl);
 
 
     //test

@@ -2,9 +2,10 @@
 <html>
 
 <head>
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Your App">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
 
     <!--jquery-->
     <script src="scripts/jquery/jquery-1.11.3.min.js"></script>
@@ -55,6 +56,10 @@
                 </div>
             </div>
         </div>
+
+        <div data-role="footer" data-position="fixed">
+            <h1>Footer Text</h1>
+        </div>
     </div>
 
     <!--radyo play-->
@@ -67,7 +72,8 @@
                class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Back</a>
         </div>
 
-        <div data-role="content">
+        <div data-role="content" id="radioPlayerContent" align="center">
+            <img id="imgRadioStation" style="width:96px;height:96px;" />
             <!--player-->
             <div id="jplayerRadio" class="jp-jplayer"></div>
             <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
@@ -105,7 +111,7 @@
             <!--player bitti-->
         </div>
 
-        <div data-role="footer">
+        <div data-role="footer" data-position="fixed">
             <h1>Footer Text</h1>
         </div>
     </div>
