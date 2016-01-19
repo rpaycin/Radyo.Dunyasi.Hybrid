@@ -17,5 +17,6 @@ var radio = {
 
 // category
 var category = {
-    categoryId: ''
+    categoryId: '',
+    categoryName:''
 }

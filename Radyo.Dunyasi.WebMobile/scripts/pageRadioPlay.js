@@ -1,6 +1,4 @@
 ﻿$(document).on('pagebeforeshow', '#pageRadioPlay', function () {
-    $('#radioPlayerContent').css('margin-top', ($(window).height() - $('[data-role=header]').height() - $('[data-role=footer]').height() - $('#radioPlayerContent').outerHeight()) / 2);
-
     $("#spanCategoryName").text(radio.categoryName);
     $("#imgRadioStation").attr('src', radio.imageUrl);
 

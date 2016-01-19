@@ -17,6 +17,8 @@
 
 $(document).on('pagebeforeshow', '#pageAllRadios', function () {
     if (!isWorkAllRadio) {
+
+        $("#spanAllCategoryName").text(category.categoryName);
         getlistViewAllRadio(isAllCategory, category.categoryId);
 
         category.categoryId = -1;

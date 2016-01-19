@@ -7,6 +7,7 @@
         audioPlayStop(false,'');
 
         category.categoryId = $(this).attr('categoryId');
+        category.categoryName = $(this).attr('categoryName');
         isAllCategory = false;
         isWorkAllRadio = false;
 
@@ -40,7 +41,7 @@ function getlistViewAllCategories() {
 
 function getCategoryItem(category) {
     var categoryItem = "<li data-icon='false'> \
-                    <a class='categoryItem' categoryId=" + category.Id + "> \
+                    <a class='categoryItem' categoryId=" + category.Id + " categoryName=" + category.Name + "> \
                         <h>" + category.Name + "</h> \
                         <p style='background-color:#CCCCFF;font-size:14px'>1 radyo</p>\
                     </a>\
