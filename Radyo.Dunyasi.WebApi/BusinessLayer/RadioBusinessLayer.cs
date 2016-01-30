@@ -7,19 +7,40 @@ namespace Radyo.Dunyasi.WebApi.BusinessLayer
 {
     public class RadioBusinessLayer : BaseBusinessLayer
     {
+        private List<Category> GetCategoriesFromXml()
+        {
+            return XmlOperations.ReadXml<List<Category>>("categories.xml");
+        }
+        private List<Radio> GetRadiosFromXml()
+        {
+            return XmlOperations.ReadXml<List<Radio>>("radiosFull.xml");
+        }
+
         public Response<List<Category>> GetCategories()
         {
-            var listCategories = XmlOperations.ReadXml<List<Category>>("categories.xml");
+            //tüm kategoriler
+            var listCategories = GetCategoriesFromXml();
+
+            //radyo kategori sayısı
+            var listRadios = GetRadiosFromXml();
+            listCategories.ForEach(c =>
+            {
+                foreach (var radio in listRadios)
+                {
+                    if (radio.ListCategories.Any(cr => cr == c.Id))
+                        c.RadioCount++;
+                }
+            });
             return CreateResponse(listCategories);
         }
 
         public Response<List<Radio>> GetRadios(int categoryId = -1)
         {
             //tüm kategoriler
-            var listFullCategories = XmlOperations.ReadXml<List<Category>>("categories.xml");
+            var listFullCategories = GetCategoriesFromXml();
 
             //tüm radyolar
-            var listFullRadios = XmlOperations.ReadXml<List<Radio>>("radios.xml");
+            var listFullRadios = GetRadiosFromXml();
 
             //kategoriye göre filtreleme
             if (categoryId > 0)
@@ -38,7 +59,8 @@ namespace Radyo.Dunyasi.WebApi.BusinessLayer
             {
                 if (r.ListCategories != null && r.ListCategories.Count > 0)
                 {
-                    r.ListCategories.ForEach(cr => {
+                    r.ListCategories.ForEach(cr =>
+                    {
                         Category category = listFullCategories.FirstOrDefault(c => c.Id == cr);
                         if (category != null)
                             r.ListCategoryNames.Add(category.Name);

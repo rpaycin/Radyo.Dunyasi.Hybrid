@@ -25,6 +25,8 @@ namespace Radyo.Dunyasi.WebApi.Models
 
         [XmlElement("Name")]
         public string Name { get; set; }
+
+        public int RadioCount { get; set; }
     }
 
     [XmlRoot("Radio")]
