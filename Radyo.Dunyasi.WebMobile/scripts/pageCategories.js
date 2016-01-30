@@ -28,7 +28,12 @@ function getlistViewAllCategories() {
                 });
                 
                 $('#listViewCategories').listview('refresh');
-                AddScroll("wrapperCategoriesList");
+                myScrollCategories = new IScroll('#wrapperCategoriesList', { mouseWheel: true });
+                //document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+                setTimeout(function () {
+                    myScrollCategories.refresh();
+                }, 100);
             }
             else
                 alert('kategoriler alınamadı!');
@@ -40,12 +45,7 @@ function getlistViewAllCategories() {
 }
 
 function getCategoryItem(category) {
-    var categoryItem = "<li data-icon='false'> \
-                    <a class='categoryItem' categoryId=" + category.Id + " categoryName=" + category.Name + "> \
-                        <h>" + category.Name + "</h> \
-                        <p style='background-color:#CCCCFF;font-size:14px'>1 radyo</p>\
-                    </a>\
-                </li>";
+    var categoryItem = "<li><a >Sent <span class='ui-li-count'>328</span></a></li>";
 
     return categoryItem;
 }
