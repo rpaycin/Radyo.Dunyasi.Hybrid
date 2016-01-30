@@ -1,0 +1,76 @@
+﻿
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/xmlFile.js"></script>
+<script>
+    var time = 0;
+    var timeout = 2000;
+    var radioXmlList = "";
+
+    $(function () {
+        readXml();
+
+        //setTimeout(function () { audioTest(1,"",'http://radyo.dogannet.tv/efsane'); }, time);
+        //time += timeout;
+        //setTimeout(function () { audioTest(1, "", 'http://yayin.damarfm.com:8080/listen.pls;'); }, time);
+        //time += timeout;
+        //setTimeout(function () { audioTest(1, "", 'http://www.radyosahil.com.tr:8000/radyosahil.ogg'); }, time);
+
+    });
+
+    function audioTest(id, name, link) {
+        var audio = $('#audioController');
+        $('#audioController').attr("src", link);
+
+        audio[0].oncanplaythrough = function () {
+            radioXmlList += prepareRadioXml(id, name, link);
+        };
+    }
+
+    function readXml() {
+        var id = 1;
+
+        //xml parse
+        var xmlDoc = $.parseXML(xml);
+        var $xml = $(xmlDoc);
+
+        var radio = $xml.find("Radio");
+
+        radio.each(function () {
+            var name = $(this).attr("Name"),
+                link = $(this).attr("Link");
+
+            setTimeout(function () { audioTest(id, name, link); }, time);
+            time += timeout;
+
+            id++;
+        });
+
+        time += timeout;
+        setTimeout(function () { finish(); }, time);
+    }
+
+    function prepareRadioXml(id, name, url) {
+        var imageName = name.replace(/ /g, '');
+        imageName += ".png";
+        imageName = imageName.toLocaleLowerCase();
+        imageName = imageName.replace("ö", "o").replace("ü", "u").replace("ı", "i").replace("ç", "c").replace("ğ", "g").replace("ş", "s");
+
+        return "<Radio>\
+                                <RadioId>" + id + "</RadioId>\
+                                <RadioName>" + name + "</RadioName>\
+                                <IsImageLocal>true</IsImageLocal>\
+                                <IconUrl>" + imageName + "</IconUrl>\
+                                <StreamUrl>"+ url + "</StreamUrl>\
+                                <IsShow>true</IsShow>\
+                                <ListCategories>\
+                                  <int>1</int>\
+                                </ListCategories>\
+                            </Radio>";
+    }
+
+    function finish() {
+        alert('bitti');
+    }
+
+</script>
+<audio id="audioController" controls="controls" src="http://yayin.damarfm.com:8080/listen.pls;"> </audio>

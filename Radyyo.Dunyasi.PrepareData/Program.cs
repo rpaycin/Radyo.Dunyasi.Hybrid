@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
@@ -13,40 +14,25 @@ namespace Radyyo.Dunyasi.PrepareData
         static void Main(string[] args)
         {
             // Create a new file stream for reading the XML file
-            SaveRadios();
+            //SaveRadios();
             var list = ReadXml<List<Radio>>("radios.xml");
+
+            int counter = 1;
+            foreach (var radio in list)
+            {
+                radio.RadioId = counter;
+                counter++;
+            }
+            SaveRadios(list);
+
+            RadioUrlTest();
 
         }
 
-        private static void SaveRadios()
+        private static void SaveRadios(List<Radio> radios)
         {
-            XmlSerializer SerializerObj = new XmlSerializer(typeof(List<Radio>));
-            var radios = new List<Radio>()
-            {
-                new Radio { RadioName = "Akdeniz FM", ListCategories = new List<int> { 4, 23 }, IconUrl = "arabesk/akdenizFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Arabesk Radyo", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/arabeskRadyo.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Arabesk Türkiye", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/arabeskTurkiye.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Arabesk Vadisi", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/arabeskVadisi.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Aşk FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/askFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Damar FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/damarFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Damla FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/damlaFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Efkar", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/efkarRadyo.png", StreamUrl = "www.google.com" , IsImageLocal=false, IsShow=true},
-                new Radio { RadioName = "Gurbetçi FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/gurbetciFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "İmbat FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/imbatFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "İstanbul'un Sesi", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/istanbulunSesi.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Kral FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/kralFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Kral Türk FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/kralTurkFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Lokum FM", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/lokumFm.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Metropol FM Arabesk", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/metropolFmArabesk.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Radyo 2000", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/radyo2000.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Radyo 34", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/radyo34.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Radyo Ahenk", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/radyoAhenk.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=true},
-                new Radio { RadioName = "Radyo Dermam", ListCategories = new List<int> { 4 }, IconUrl = "arabesk/radyoDerman.png", StreamUrl = "www.google.com" , IsImageLocal=true, IsShow=false}
-            };
-
-            for (int i = 0; i < radios.Count; i++)
-                radios[i].RadioId = i + 1;
-
+            var SerializerObj = new XmlSerializer(typeof(List<Radio>));
+            
             SaveXml(SerializerObj, @"C:\radios.xml", radios);
         }
 
@@ -95,5 +81,92 @@ namespace Radyyo.Dunyasi.PrepareData
 
             return loadedObj;
         }
+
+        private static void RadioUrlTest()
+        {
+            XmlSerializer SerializerObj = new XmlSerializer(typeof(List<Radio>));
+
+            var list = ReadXml<ArrayOfRadio>("radyourl-2015-08.xml");
+
+            var listWhite = new List<Radio>();
+
+            var listWhiteTest = RadioTestFromXml(list);
+            var listWhiteTest2 = RadioTestFromXml(list, true);
+
+            foreach (var commaRadio in listWhiteTest2)
+            {
+                if (!listWhiteTest.Any(r => r.Name == commaRadio.Name))
+                {
+                    listWhiteTest.Add(commaRadio);
+                }
+            }
+
+            foreach (var item in listWhiteTest)
+            {
+                listWhite.Add(new Radio
+                {
+                    RadioName = item.Name,
+                    IsImageLocal = true,
+                    IsShow = true,
+                    StreamUrl = item.Link,
+                    IconUrl = string.Format("{0}.png", item.Name.Replace(" ", "")),
+                    RadioId = item.ID
+                });
+            }
+
+            SaveXml(SerializerObj, @"C:\radiosTest1.xml", listWhite);
+        }
+
+        private static List<RadioTestModel> RadioTestFromXml(ArrayOfRadio list, bool isContainExtraUrl = false)
+        {
+            int i = 1;
+            var wb = new MyWebClient();
+
+            var listWhite = new List<RadioTestModel>();
+            var listBlack = new List<RadioTestModel>();
+
+            foreach (var radioTest in list.ListRadioTest)
+            {
+                try
+                {
+                    radioTest.Link = isContainExtraUrl ? string.Format("{0};", radioTest.Link) : radioTest.Link;
+                    Console.WriteLine(radioTest.Link);
+                    var response2 = wb.DownloadString(radioTest.Link);
+
+                    listWhite.Add(radioTest);
+                }
+                catch (Exception wex)
+                {
+                    listBlack.Add(radioTest);
+                    //set flag if there was a timeout or some other issues
+                }
+                finally
+                {
+                    Console.WriteLine(i.ToString());
+                    i++;
+                }
+            }
+
+            return listWhite;
+        }
     }
+
+    public class MyWebClient : WebClient
+    {
+        protected override WebRequest GetWebRequest(Uri uri)
+        {
+            try
+            {
+                WebRequest w = base.GetWebRequest(uri);
+                w.Timeout = 3000;
+                return w;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
+    }
+
+
 }
