@@ -68,6 +68,7 @@ namespace Radyo.Dunyasi.WebApi.BusinessLayer
                 }
             });
 
+            listFullRadios = listFullRadios.OrderBy(r => r.RadioName).ToList();
             return CreateResponse(listFullRadios);
         }
     }
