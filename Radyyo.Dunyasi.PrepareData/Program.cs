@@ -15,7 +15,7 @@ namespace Radyyo.Dunyasi.PrepareData
         {
             // Create a new file stream for reading the XML file
             //SaveRadios();
-            var list = ReadXml<List<Radio>>("radios.xml");
+            var list = ReadXml<List<Radio>>("radiosFull.xml");
 
             int counter = 1;
             foreach (var radio in list)

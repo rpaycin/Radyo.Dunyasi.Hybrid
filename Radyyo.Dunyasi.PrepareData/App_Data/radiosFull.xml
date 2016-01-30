@@ -8,7 +8,7 @@
     <StreamUrl>http://s3.onweb.gr:8878/;stream.nsv</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>6</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -19,7 +19,7 @@
     <StreamUrl>http://radiozetmp3-08.eurozet.pl:8400/</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>6</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -30,7 +30,9 @@
     <StreamUrl>http://yayin2.yayindakiler.com:4056/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>16</int>
+      <int>20</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -41,7 +43,8 @@
     <StreamUrl>http://yayin1.canliyayin.org:7078/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -52,7 +55,8 @@
     <StreamUrl>http://yayindinle.com:7446/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -63,7 +67,7 @@
     <StreamUrl>http://arabeskturkiye.com:9999/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -74,7 +78,7 @@
     <StreamUrl>http://yayin2.yayindakiler.com:4134/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>5</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -85,7 +89,8 @@
     <StreamUrl>http://yayin2.yayindakiler.com:4072/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -96,7 +101,7 @@
     <StreamUrl>http://46.20.4.4:8050/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -107,7 +112,9 @@
     <StreamUrl>http://85.25.120.98:18184/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>18</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -118,7 +125,8 @@
     <StreamUrl>http://expres-bosna.no-ip.biz:1936/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>6</int>
+      <int>20</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -129,7 +137,7 @@
     <StreamUrl>http://yayin5.yayindayiz.biz:8195/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -140,7 +148,9 @@
     <StreamUrl>http://sr1.netmedya.org:9220/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>20</int>
+      <int>23</int>
+      <int>18</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -151,7 +161,8 @@
     <StreamUrl>http://yayin3.canlitv.com:9070/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -162,7 +173,8 @@
     <StreamUrl>http://46.165.233.174:3044/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -173,7 +185,7 @@
     <StreamUrl>http://sunucu2.radyolarburada.com:5151/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -184,7 +196,7 @@
     <StreamUrl>http://yayin.turkhosted.com:6072/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -195,7 +207,7 @@
     <StreamUrl>http://erzincanfm.canliyayinda.com:2424/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -206,7 +218,10 @@
     <StreamUrl>http://yayin2.yayindakiler.com:4022/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>18</int>
+      <int>20</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -217,7 +232,8 @@
     <StreamUrl>http://37.1.144.106:9001/;stream/1;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>7</int>
+      <int>18</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -228,7 +244,7 @@
     <StreamUrl>http://yayin2.yayindakiler.com:4092/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>22</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -239,7 +255,9 @@
     <StreamUrl>http://yayin1.yayindakiler.com:3168/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>18</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -250,7 +268,7 @@
     <StreamUrl>http://yayin1.yayindakiler.com:3012/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>22</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -261,7 +279,8 @@
     <StreamUrl>http://arabeskturkiye.com:6606/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -272,7 +291,7 @@
     <StreamUrl>http://yayin1.yayindakiler.com:3034/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>22</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -283,7 +302,9 @@
     <StreamUrl>http://live2.radyotvonline.com:8750/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
+      <int>10</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -294,7 +315,9 @@
     <StreamUrl>http://sunucu.radyodinle.com:2038/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>18</int>
+      <int>20</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -305,7 +328,9 @@
     <StreamUrl>http://www.isimsizfm.com:8888/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>18</int>
+      <int>20</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -316,7 +341,8 @@
     <StreamUrl>http://live4.radyotvonline.com:8040/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>9</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -327,7 +353,7 @@
     <StreamUrl>http://yayin2.canliyayin.org:6022/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>5</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -338,7 +364,8 @@
     <StreamUrl>http://yayin1.yayindakiler.com:3056/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -349,7 +376,7 @@
     <StreamUrl>http://yayin1.canliyayin.org:8298/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>5</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -360,7 +387,10 @@
     <StreamUrl>http://yayin2.yayindakiler.com:4130/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>19</int>
+      <int>20</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -371,7 +401,7 @@
     <StreamUrl>http://38.96.148.39:8588/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -382,7 +412,8 @@
     <StreamUrl>http://eco.onestreaming.com:8286/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>6</int>
+      <int>20</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -393,7 +424,9 @@
     <StreamUrl>http://37.1.144.106:9003/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>6</int>
+      <int>7</int>
+      <int>14</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -404,7 +437,10 @@
     <StreamUrl>http://yayin1.yayindakiler.com:3032/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>18</int>
+      <int>20</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -415,7 +451,8 @@
     <StreamUrl>http://live2.radyotvonline.com:8025/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>19</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -426,7 +463,7 @@
     <StreamUrl>http://yayin3.canlitv.com:8010/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>5</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -437,7 +474,9 @@
     <StreamUrl>http://mfm1.webradiostreaming.de:8200/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
+      <int>9</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -448,7 +487,7 @@
     <StreamUrl>http://simplebroadcast.de:8200/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>22</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -459,7 +498,7 @@
     <StreamUrl>http://simplestreaming.de:8200/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -470,7 +509,9 @@
     <StreamUrl>http://simplestream.de:8100/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>18</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -481,7 +522,7 @@
     <StreamUrl>http://simplebroadcast.de:8100/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -492,7 +533,8 @@
     <StreamUrl>http://simplestreaming.de:8100/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>19</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -503,7 +545,9 @@
     <StreamUrl>http://simplestream.de:8200/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>20</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -514,7 +558,8 @@
     <StreamUrl>http://77.223.136.16:9920/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>16</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -525,7 +570,8 @@
     <StreamUrl>http://77.223.136.16:1860/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>18</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -536,7 +582,8 @@
     <StreamUrl>http://eco.onestreaming.com:8215/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>6</int>
+      <int>20</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -547,7 +594,9 @@
     <StreamUrl>http://arabeskturkiye.com:2222/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>6</int>
+      <int>17</int>
+      <int>18</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -558,7 +607,7 @@
     <StreamUrl>http://yayin1.yayindakiler.com:3050/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>20</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -569,7 +618,7 @@
     <StreamUrl>http://radyo71.canliyayinda.com:7100/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -580,7 +629,7 @@
     <StreamUrl>http://radyo.radyo81.com:2929/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -591,7 +640,8 @@
     <StreamUrl>http://sunucu2.radyolarburada.com:5484/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>10</int>
+      <int>22</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -602,7 +652,7 @@
     <StreamUrl>http://yayin3.canlitv.com:6060/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>5</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -613,7 +663,7 @@
     <StreamUrl>http://yayin1.yayindakiler.com:3018/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -624,7 +674,7 @@
     <StreamUrl>http://park.netradyom.com:11148/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -635,7 +685,7 @@
     <StreamUrl>http://46.165.233.174:3044/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -646,7 +696,7 @@
     <StreamUrl>http://yayin3.canlitv.com:8030/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>5</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -657,7 +707,8 @@
     <StreamUrl>http://46.165.233.175:4118/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>9</int>
+      <int>20</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -668,7 +719,7 @@
     <StreamUrl>http://arabeskturkiye.com:7200/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>22</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -679,7 +730,7 @@
     <StreamUrl>http://yayin1.yayindakiler.com:3026/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>22</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -690,7 +741,7 @@
     <StreamUrl>http://46.165.233.175:4058/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -701,7 +752,8 @@
     <StreamUrl>http://radyo.cc.ankara.edu.tr:8089/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>13</int>
+      <int>20</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -712,7 +764,7 @@
     <StreamUrl>http://sunucu4.radyolarburada.com:9880/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -723,7 +775,9 @@
     <StreamUrl>http://yayin1.yayindakiler.com:3126/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>18</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -734,7 +788,9 @@
     <StreamUrl>http://176.31.105.44:9944/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>18</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -745,7 +801,8 @@
     <StreamUrl>http://176.31.105.44:9902/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>3</int>
+      <int>19</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -756,7 +813,8 @@
     <StreamUrl>http://149.210.142.110:80/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>3</int>
+      <int>19</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -767,7 +825,7 @@
     <StreamUrl>http://yayin3.canlitv.com:8060/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>5</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -778,7 +836,7 @@
     <StreamUrl>http://95.173.188.166:9782/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -789,7 +847,10 @@
     <StreamUrl>http://46.165.233.174:3110/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>18</int>
+      <int>20</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -800,7 +861,7 @@
     <StreamUrl>http://live2.radyotvonline.com:8095/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>22</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -811,7 +872,7 @@
     <StreamUrl>http://213.128.77.142:8050/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -822,7 +883,7 @@
     <StreamUrl>http://live4.radyotvonline.com:8160/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>21</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -833,7 +894,7 @@
     <StreamUrl>http://yayin2.yayindakiler.com:4028/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -844,7 +905,7 @@
     <StreamUrl>http://rdshout.turkuvazgroup.net:8000/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -855,7 +916,9 @@
     <StreamUrl>http://vizyon.acteknik.com:9300/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>7</int>
+      <int>17</int>
+      <int>18</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -866,7 +929,8 @@
     <StreamUrl>http://live4.radyotvonline.com:6570/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>10</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -877,7 +941,7 @@
     <StreamUrl>http://sunucu2.radyolarburada.com:2006/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>10</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -888,7 +952,9 @@
     <StreamUrl>http://live4.radyoyayini.com:9420/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>20</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -899,7 +965,7 @@
     <StreamUrl>http://95.154.254.151:20277/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -910,7 +976,7 @@
     <StreamUrl>http://yayin1.canliyayin.org:8180/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -921,7 +987,8 @@
     <StreamUrl>http://yayin2.yayindakiler.com:4034/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>20</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -932,7 +999,8 @@
     <StreamUrl>http://sunucu4.radyolarburada.com:6065/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>20</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -943,7 +1011,7 @@
     <StreamUrl>http://yayin1.canliyayin.org:8888/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>5</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -954,7 +1022,8 @@
     <StreamUrl>http://arabeskturkiye.com:3100/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
+      <int>22</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -965,7 +1034,7 @@
     <StreamUrl>http://yayin.damarfm.com:8080/listen.pls</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -976,7 +1045,8 @@
     <StreamUrl>http://nfw.video.ria.ru/flv/audio.aspx?ID=99244423</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>9</int>
+      <int>20</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -987,7 +1057,7 @@
     <StreamUrl>http://radyo.dogannet.tv/efsane</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>16</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -998,7 +1068,7 @@
     <StreamUrl>http://radyo.dogannet.tv/gazino</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>22</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -1009,7 +1079,7 @@
     <StreamUrl>http://radyo.dogannet.tv/hitplay</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
     </ListCategories>
   </Radio>
   <Radio>
@@ -1020,220 +1090,211 @@
     <StreamUrl>http://radyo.dogannet.tv/kafa</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
     </ListCategories>
   </Radio>
   <Radio>
     <RadioId>94</RadioId>
-    <RadioName>Radyonom - Kampüs</RadioName>
-    <IsImageLocal>true</IsImageLocal>
-    <IconUrl>radyonomkampus.png</IconUrl>
-    <StreamUrl>http://radyo.dogannet.tv/kampus</StreamUrl>
-    <IsShow>true</IsShow>
-    <ListCategories>
-      <int>1</int>
-    </ListCategories>
-  </Radio>
-  <Radio>
-    <RadioId>95</RadioId>
     <RadioName>Radyonom - Klasik</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>radyonomklasik.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/klasik</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>13</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>96</RadioId>
+    <RadioId>95</RadioId>
     <RadioName>Radyonom - Latin</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>radyonomlatin.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/latintest</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>6</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>97</RadioId>
+    <RadioId>96</RadioId>
     <RadioName>Radyonom - Loca</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>radyonomloca.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/loca</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>14</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>98</RadioId>
+    <RadioId>97</RadioId>
     <RadioName>Radyonom - Mazi</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>radyonommazi.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/mazi</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>16</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>99</RadioId>
+    <RadioId>98</RadioId>
     <RadioName>Radyonom - Pop Corn</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>radyonompopcorn.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/popcorn</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>6</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>100</RadioId>
+    <RadioId>99</RadioId>
     <RadioName>Radyonom - Radyo Cazz</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>radyonomradyocazz.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/radyocazz</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>12</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>100</RadioId>
+    <RadioName>Radyo D</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>radyod.png</IconUrl>
+    <StreamUrl>http://radyo.dogannet.tv/radyod</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>18</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
     <RadioId>101</RadioId>
-    <RadioName>Radyonom - Radyo D</RadioName>
-    <IsImageLocal>true</IsImageLocal>
-    <IconUrl>radyonomradyod.png</IconUrl>
-    <StreamUrl>http://radyo.dogannet.tv/radyod</StreamUrl>
-    <IsShow>true</IsShow>
-    <ListCategories>
-      <int>1</int>
-    </ListCategories>
-  </Radio>
-  <Radio>
-    <RadioId>102</RadioId>
     <RadioName>Radyonom - Rock Cafe</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>radyonomrockcafe.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/rockcafe</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>19</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>103</RadioId>
+    <RadioId>102</RadioId>
     <RadioName>Radyonom - Sultan</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>radyonomsultan.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/sultan</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>6</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>104</RadioId>
+    <RadioId>103</RadioId>
     <RadioName>Radyonom - Türk Pop</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>radyonomturkpop.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/turkpop</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>105</RadioId>
+    <RadioId>104</RadioId>
     <RadioName>Radyonom - Türkü Bar</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>radyonomturkubar.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/turkubar</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>10</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>105</RadioId>
+    <RadioName>Dream Türk</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>dreamturk.png</IconUrl>
+    <StreamUrl>http://radyo.dogannet.tv/dreamturk</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>12</int>
     </ListCategories>
   </Radio>
   <Radio>
     <RadioId>106</RadioId>
-    <RadioName>Radyonom - Dream Türk</RadioName>
+    <RadioName>Dream</RadioName>
     <IsImageLocal>true</IsImageLocal>
-    <IconUrl>radyonomdreamturk.png</IconUrl>
-    <StreamUrl>http://radyo.dogannet.tv/dreamturk</StreamUrl>
+    <IconUrl>dream.png</IconUrl>
+    <StreamUrl>http://radyo.dogannet.tv/dream</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
     </ListCategories>
   </Radio>
   <Radio>
     <RadioId>107</RadioId>
-    <RadioName>Radyonom - Dream</RadioName>
-    <IsImageLocal>true</IsImageLocal>
-    <IconUrl>radyonomdream.png</IconUrl>
-    <StreamUrl>http://radyo.dogannet.tv/dream</StreamUrl>
-    <IsShow>true</IsShow>
-    <ListCategories>
-      <int>1</int>
-    </ListCategories>
-  </Radio>
-  <Radio>
-    <RadioId>108</RadioId>
     <RadioName>Radyo Ritm</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>radyoritm.png</IconUrl>
     <StreamUrl>http://radyo.yayin.com.tr:8091/;?icy=http</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>20</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>109</RadioId>
+    <RadioId>108</RadioId>
     <RadioName>Radyo Faruki</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>radyofaruki.png</IconUrl>
     <StreamUrl>http://radyo.radyofaruki.com:1324/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>5</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>110</RadioId>
+    <RadioId>109</RadioId>
     <RadioName>Radio Laikos</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>radiolaikos.png</IconUrl>
     <StreamUrl>http://iphone.live24.gr/laikos876?9ea8934e85c742afcda11a41f8876e8d?1355957916562.mp3</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>6</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>111</RadioId>
+    <RadioId>110</RadioId>
     <RadioName>Huzur Pınarı FM</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>huzurpinarifm.png</IconUrl>
     <StreamUrl>http://hpradyo.huzurpinari.com:8000/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>5</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>112</RadioId>
+    <RadioId>111</RadioId>
     <RadioName>French Kiss FM</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>frenchkissfm.png</IconUrl>
     <StreamUrl>http://stream.frenchkissfm.com:80/</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>6</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>113</RadioId>
+    <RadioId>112</RadioId>
     <RadioName>Exits 70,80,90s</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>exits708090s.png</IconUrl>
@@ -1241,208 +1302,220 @@
     <IsShow>true</IsShow>
     <ListCategories>
       <int>1</int>
+      <int>3</int>
+      <int>16</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>114</RadioId>
+    <RadioId>113</RadioId>
     <RadioName>Dinamo FM</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>dinamofm.png</IconUrl>
     <StreamUrl>http://channels.dinamo.fm/legacy-mp3</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>7</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>115</RadioId>
+    <RadioId>114</RadioId>
     <RadioName>Arabesk FM</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>arabeskfm.png</IconUrl>
     <StreamUrl>http://yayin.damarfm.com:8080/mp3</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>116</RadioId>
+    <RadioId>115</RadioId>
     <RadioName>Bodrum FM</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>bodrumfm.png</IconUrl>
     <StreamUrl>http://88.255.140.50:88/broadwavehigh.mp3?src=1</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>117</RadioId>
+    <RadioId>116</RadioId>
     <RadioName>Aliağa Radyo Sahil</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>aliagaradyosahil.png</IconUrl>
     <StreamUrl>http://www.radyosahil.com.tr:8000/radyosahil.ogg</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>18</int>
+      <int>20</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>118</RadioId>
+    <RadioId>117</RadioId>
     <RadioName>Açık Radyo</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>acikradyo.png</IconUrl>
     <StreamUrl>http://stream.34bit.net/ar64.mp3</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>6</int>
+      <int>9</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>119</RadioId>
+    <RadioId>118</RadioId>
     <RadioName>Power Dance</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>powerdance.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr:80/PowerGymTonic/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>7</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>120</RadioId>
+    <RadioId>119</RadioId>
     <RadioName>Power Greece</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>powergreece.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr/PowerGreek/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>7</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>121</RadioId>
+    <RadioId>120</RadioId>
     <RadioName>Power Italy</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>poweritaly.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr/PowerItaly/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>7</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>122</RadioId>
+    <RadioId>121</RadioId>
     <RadioName>Power MiniMix</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>powerminimix.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr:80/PowerMiniMix/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>7</int>
+      <int>17</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>123</RadioId>
+    <RadioId>122</RadioId>
     <RadioName>Power Rocks</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>powerrocks.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr:80/PowerRocks/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>19</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>124</RadioId>
+    <RadioId>123</RadioId>
     <RadioName>Power Salsa</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>powersalsa.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr/PowerSalsa/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>6</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>125</RadioId>
+    <RadioId>124</RadioId>
     <RadioName>Power Smooth Jazz</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>powersmoothjazz.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr:80/PowerJazz/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>12</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>126</RadioId>
+    <RadioId>125</RadioId>
     <RadioName>Power XL</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>powerxl.png</IconUrl>
     <StreamUrl>http://sc.powergroup.com.tr:80/PowerXL/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>14</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>127</RadioId>
+    <RadioId>126</RadioId>
     <RadioName>PowerTürk</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>powerturk.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr/PowerTurk/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>18</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>128</RadioId>
+    <RadioId>127</RadioId>
     <RadioName>PowerTürk Akustik</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>powerturkakustik.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr:80/PowerTurkAkustik/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>2</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>129</RadioId>
+    <RadioId>128</RadioId>
     <RadioName>PowerTürk Rock</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>powerturkrock.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr/PowerTurkRock/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>19</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>130</RadioId>
+    <RadioId>129</RadioId>
     <RadioName>PowerTürk Taptaze</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>powerturktaptaze.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr/PowerTurkTaptaze/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>18</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>131</RadioId>
+    <RadioId>130</RadioId>
     <RadioName>Slow Türk</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>slowturk.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/slowturk</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>18</int>
+      <int>20</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>132</RadioId>
+    <RadioId>131</RadioId>
     <RadioName>Best of the 80s</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>bestofthe80s.png</IconUrl>
@@ -1450,149 +1523,147 @@
     <IsShow>true</IsShow>
     <ListCategories>
       <int>1</int>
+      <int>6</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>133</RadioId>
+    <RadioId>132</RadioId>
     <RadioName>Derti FM</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>dertifm.png</IconUrl>
     <StreamUrl>http://derti.live24.gr/derty1000</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>134</RadioId>
+    <RadioId>133</RadioId>
     <RadioName>Radyo Alaturka</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>radyoalaturka.png</IconUrl>
     <StreamUrl>http://stream.radyoalaturka.com.tr:9100/listen.pls</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>10</int>
+      <int>22</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>135</RadioId>
+    <RadioId>134</RadioId>
     <RadioName>Cesur FM</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>cesurfm.png</IconUrl>
     <StreamUrl>http://cesurfm.canliyayinda.com:8048/listen.pls</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>18</int>
+      <int>20</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>136</RadioId>
+    <RadioId>135</RadioId>
     <RadioName>Karma Türk</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>karmaturk.png</IconUrl>
     <StreamUrl>http://188.227.181.186:9900/</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>137</RadioId>
+    <RadioId>136</RadioId>
     <RadioName>Romantik Radyo</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>romantikradyo.png</IconUrl>
     <StreamUrl>http://rdshout.turkuvazgroup.net:7000/</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>20</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>138</RadioId>
-    <RadioName>Rock FM</RadioName>
-    <IsImageLocal>true</IsImageLocal>
-    <IconUrl>rockfm.png</IconUrl>
-    <StreamUrl>http://188.227.181.186:9450/</StreamUrl>
-    <IsShow>true</IsShow>
-    <ListCategories>
-      <int>1</int>
-    </ListCategories>
-  </Radio>
-  <Radio>
-    <RadioId>139</RadioId>
+    <RadioId>137</RadioId>
     <RadioName>Radyo Fenomen</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>radyofenomen.png</IconUrl>
     <StreamUrl>http://185.28.3.14/fenomen/fenomenweb_aac_64_mobile/icecast.audio</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
+      <int>18</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>140</RadioId>
+    <RadioId>138</RadioId>
     <RadioName>İstanbul FM</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>istanbulfm.png</IconUrl>
     <StreamUrl>http://46.165.197.36:8000/istanbulfm</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>18</int>
+      <int>21</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>141</RadioId>
+    <RadioId>139</RadioId>
     <RadioName>Fenomen Clubbin</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>fenomenclubbin.png</IconUrl>
     <StreamUrl>http://185.28.3.14/fenomen/fenomenclubbin_aac_64_mobile/icecast.audio</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>7</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>142</RadioId>
+    <RadioId>140</RadioId>
     <RadioName>Fenomen Pop</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>fenomenpop.png</IconUrl>
     <StreamUrl>http://185.28.3.14/fenomen/fenomenpop_aac_64_mobile/icecast.audio</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>17</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>143</RadioId>
+    <RadioId>141</RadioId>
     <RadioName>Fenomen Rap</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>fenomenrap.png</IconUrl>
     <StreamUrl>http://185.28.3.14/fenomen/fenomenrap_aac_64_mobile/icecast.audio</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>11</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>144</RadioId>
+    <RadioId>142</RadioId>
     <RadioName>Fenomen Türk</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>fenomenturk.png</IconUrl>
     <StreamUrl>http://185.28.3.14/fenomen/fenomenturk_aac_64_mobile/icecast.audio</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>18</int>
+      <int>23</int>
     </ListCategories>
   </Radio>
   <Radio>
-    <RadioId>145</RadioId>
+    <RadioId>143</RadioId>
     <RadioName>İmbat Fm</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>imbatfm.png</IconUrl>
     <StreamUrl>http://allergo.serverroom.us:8127/;</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
-      <int>1</int>
+      <int>4</int>
     </ListCategories>
   </Radio>
 </ArrayOfRadio>
