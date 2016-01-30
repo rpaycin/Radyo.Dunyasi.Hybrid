@@ -31,6 +31,10 @@ namespace Radyo.Dunyasi.WebApi.BusinessLayer
                         c.RadioCount++;
                 }
             });
+
+            //tüm radyoların sayısı
+            listCategories.FirstOrDefault(c => c.Id == -1).RadioCount = listRadios.Count;
+
             return CreateResponse(listCategories);
         }
 
