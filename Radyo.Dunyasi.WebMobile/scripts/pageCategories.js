@@ -4,7 +4,7 @@
 
     //category item basıldığı zaman
     $(document).on('vclick', '.categoryItem', function () {
-        audioPlayStop(false,'');
+        audioPlayStop(false, '');
 
         category.categoryId = $(this).attr('categoryId');
         category.categoryName = $(this).attr('categoryName');
@@ -26,7 +26,7 @@ function getlistViewAllCategories() {
                 $.each(data.Value, function (index, category) {
                     $('#listViewCategories').append(getCategoryItem(category));
                 });
-                
+
                 $('#listViewCategories').listview('refresh');
                 myScrollCategories = new IScroll('#wrapperCategoriesList', { mouseWheel: true });
                 //document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
@@ -40,12 +40,19 @@ function getlistViewAllCategories() {
         },
         error: function (xhr, ajaxOptions, thrownError) {
         },
-        timeout: 30000 
+        timeout: 30000
     });
 }
 
 function getCategoryItem(category) {
-    var categoryItem = "<li><a >Sent <span class='ui-li-count'>328</span></a></li>";
-
+    var categoryItem = " <li data-theme='d' class='ui-btn  ui-li-has-arrow ui-li ui-corner-bottom ui-btn-up-c'>\
+                            <div class='ui-btn-inner ui-li' aria-hidden='true'>\
+                                <div class='ui-btn-text'>\
+                                    <a categoryId=" + category.Id + " categoryName=" + category.Name + " class='categoryItem ui-link-inherit'>\
+                                        " + category.Name + "<span class='ui-li-count'>" + category.RadioCount + "</span>\
+                                    </a>\
+                                </div>\
+                            </div>\
+                        </li>";
     return categoryItem;
 }

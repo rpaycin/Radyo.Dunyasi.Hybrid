@@ -16,7 +16,6 @@ $(function () {
 
     //radioplayer başlangıç
     $("#jplayerRadio").jPlayer({
-
         swfPath: "../../dist/jplayer",
         supplied: "m4a, oga, mp3",
         useStateClassSkin: true,
