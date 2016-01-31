@@ -1579,7 +1579,7 @@
     <RadioName>Romantik Radyo</RadioName>
     <IsImageLocal>true</IsImageLocal>
     <IconUrl>romantikradyo.png</IconUrl>
-    <StreamUrl>http://rdshout.turkuvazgroup.net:7000/</StreamUrl>
+    <StreamUrl>http://rdshout.turkuvazgroup.net:7000/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
     <ListCategories>
       <int>20</int>
@@ -1664,6 +1664,517 @@
     <IsShow>true</IsShow>
     <ListCategories>
       <int>4</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>144</RadioId>
+    <RadioName>Hard Rock Cafe</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>hardrockcafe.png</IconUrl>
+    <StreamUrl>http://7929.live.streamtheworld.com/HARD_ROCK_CAFE.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>19</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>145</RadioId>
+    <RadioName>Joy Fm</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>joyfm.png</IconUrl>
+    <StreamUrl>http://7929.live.streamtheworld.com/JOY_FM.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>16</int>
+      <int>17</int>
+      <int>20</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>146</RadioId>
+    <RadioName>Metro Fm</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>metrofm.png</IconUrl>
+    <StreamUrl>http://7499.live.streamtheworld.com/METRO_FM2.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>7</int>
+      <int>17</int>
+      <int>18</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>147</RadioId>
+    <RadioName>Radyo Virgin</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>radyovirgin.png</IconUrl>
+    <StreamUrl>http://7499.live.streamtheworld.com/VIRGIN_RADIO.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>17</int>
+      <int>18</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>148</RadioId>
+    <RadioName>Number One Fm</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>numberonefm.png</IconUrl>
+    <StreamUrl>http://7499.live.streamtheworld.com/VIRGIN_RADIO.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>17</int>
+      <int>18</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>149</RadioId>
+    <RadioName>Rock Fm</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>rockfm.png</IconUrl>
+    <StreamUrl>http://188.227.181.186:9450/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>15</int>
+      <int>17</int>
+      <int>19</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>150</RadioId>
+    <RadioName>Radyo Mydonose</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>radyomydonose.png</IconUrl>
+    <StreamUrl>http://7499.live.streamtheworld.com/RADIO_MYDONOSE.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>17</int>
+      <int>18</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>151</RadioId>
+    <RadioName>Dans Türk</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>dansturk.png</IconUrl>
+    <StreamUrl>http://7499.live.streamtheworld.com/DANSTURK.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>17</int>
+      <int>18</int>
+      <int>23</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>152</RadioId>
+    <RadioName>Power Love</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>powerlove.png</IconUrl>
+    <StreamUrl>http://sc.powergroup.com.tr:80/PowerLove/aac/128/home/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>17</int>
+      <int>20</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>153</RadioId>
+    <RadioName>Joy Jazz</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>joyjazz.png</IconUrl>
+    <StreamUrl>http://7499.live.streamtheworld.com/JOY_JAZZ.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>12</int>
+      <int>20</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>154</RadioId>
+    <RadioName>Kantin Radyo</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>kantinradyo.png</IconUrl>
+    <StreamUrl>http://7499.live.streamtheworld.com/KANTIN.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>17</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>155</RadioId>
+    <RadioName>Radio 5</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>radio5.png</IconUrl>
+    <StreamUrl>http://radio5tr.canliyayinda.com:8117/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>17</int>
+      <int>18</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>156</RadioId>
+    <RadioName>Radyo Rap</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>radyorap.png</IconUrl>
+    <StreamUrl>http://tuner.defjay.com/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>11</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>157</RadioId>
+    <RadioName>Number One Dance</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>numberonedance.png</IconUrl>
+    <StreamUrl>http://sh.mncdn.com:8114/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>7</int>
+      <int>17</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>158</RadioId>
+    <RadioName>Number One Heart</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>numberoneheaart.png</IconUrl>
+    <StreamUrl>http://sh.mncdn.com:8098/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>18</int>
+      <int>20</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>159</RadioId>
+    <RadioName>Radio Line</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>radioline.png</IconUrl>
+    <StreamUrl>http://www.radioline.fm:8002/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>7</int>
+      <int>17</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>160</RadioId>
+    <RadioName>Taksim Fm Arabic</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>taksimfmarabic.png</IconUrl>
+    <StreamUrl>http://cast1.taksim.fm:8006/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>17</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>161</RadioId>
+    <RadioName>Radyo Mood</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>radyomood.png</IconUrl>
+    <StreamUrl>http://radyohosting2.muzafferbilisim.net:9902/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>3</int>
+      <int>19</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>162</RadioId>
+    <RadioName>Radio One</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>radioone.png</IconUrl>
+    <StreamUrl>http://sunucu1.radyolarburada.com:9085/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>17</int>
+      <int>20</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>163</RadioId>
+    <RadioName>Radyo Pop</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>radyopop.png</IconUrl>
+    <StreamUrl>http://yayin2.yayindayiz.biz:9010/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>17</int>
+      <int>18</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>164</RadioId>
+    <RadioName>Vizyon Rock</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>vizyonrock.png</IconUrl>
+    <StreamUrl>http://vizyon.acteknik.com:9304/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>19</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>165</RadioId>
+    <RadioName>Park fm</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>parkfm.png</IconUrl>
+    <StreamUrl>http://park.netradyom.com:1345/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>10</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>166</RadioId>
+    <RadioName>Radyo Voyage</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>radyovoyage.png</IconUrl>
+    <StreamUrl>http://voyagewmp.radyotvonline.com/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>6</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>167</RadioId>
+    <RadioName>Borusan Klasik</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>borusanklasik.png</IconUrl>
+    <StreamUrl>http://7499.live.streamtheworld.com/BORUSAN_KLASIK.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>13</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>168</RadioId>
+    <RadioName>Baby Joy</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>babyjoy.png</IconUrl>
+    <StreamUrl>http://7499.live.streamtheworld.com/BABYJOY.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>6</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>169</RadioId>
+    <RadioName>Bayrak Klasik</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>bayrakkasik.png</IconUrl>
+    <StreamUrl>http://sc.brtk.net:8006/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>13</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>170</RadioId>
+    <RadioName>İTÜ Radyosu</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>ituradyosu.png</IconUrl>
+    <StreamUrl>http://160.75.86.29:8084/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>13</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>171</RadioId>
+    <RadioName>Radyo Budems Klasik</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>budemsklasik.png</IconUrl>
+    <StreamUrl>http://radyobudems.canliyayindinle.com:9988/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>13</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>172</RadioId>
+    <RadioName>Retro Türk</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>retroturk.png</IconUrl>
+    <StreamUrl>http://7469.live.streamtheworld.com/RETROTURK.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>16</int>
+      <int>20</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>173</RadioId>
+    <RadioName>Flashback</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>flashback.png</IconUrl>
+    <StreamUrl>http://7499.live.streamtheworld.com/FLASHBACK.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>1</int>
+      <int>16</int>
+      <int>17</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>174</RadioId>
+    <RadioName>X Nostalji</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>xnostalji.png</IconUrl>
+    <StreamUrl>http://46.20.13.51:1140/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>16</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>175</RadioId>
+    <RadioName>Galatasaray Radyo</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>galatasarayradyo.png</IconUrl>
+    <StreamUrl>http://7919.live.streamtheworld.com/GS_RADYO.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>17</int>
+      <int>21</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>176</RadioId>
+    <RadioName>Ntv Spor Radyo</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>ntvsporradyo.png</IconUrl>
+    <StreamUrl>http://ntvsporwmp.radyotvonline.com/;</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>9</int>
+      <int>21</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>177</RadioId>
+    <RadioName>Ntv Radyo</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>ntvradyo.png</IconUrl>
+    <StreamUrl>http://ntvrdwmp.radyotvonline.com/;</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>9</int>
+      <int>21</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>178</RadioId>
+    <RadioName>Best Fm</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>bestfm.png</IconUrl>
+    <StreamUrl>http://46.20.7.126/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>18</int>
+      <int>23</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>179</RadioId>
+    <RadioName>Power Fm</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>powerfm.png</IconUrl>
+    <StreamUrl>http://sc.powergroup.com.tr:80/PowerFM/aac/64/www</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>7</int>
+      <int>17</int>
+      <int>18</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>180</RadioId>
+    <RadioName>Show Radyo</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>showradyo.png</IconUrl>
+    <StreamUrl>http://46.20.3.229/;stream.nsv</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>18</int>
+      <int>23</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>181</RadioId>
+    <RadioName>Radyo Eksen</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>radyoeksen.png</IconUrl>
+    <StreamUrl>http://eksenwmp.radyotvonline.com/;stream.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>3</int>
+      <int>18</int>
+      <int>19</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>182</RadioId>
+    <RadioName>Süper Fm</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>superfm.png</IconUrl>
+    <StreamUrl>http://7919.live.streamtheworld.com/SUPER_FM.mp3</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>18</int>
+      <int>23</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>183</RadioId>
+    <RadioName>Joy Türk</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>joyturk.png</IconUrl>
+    <StreamUrl>http://7929.live.streamtheworld.com:443/JOY_TURK_SC</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>18</int>
+      <int>20</int>
+      <int>23</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>184</RadioId>
+    <RadioName>Kral Fm</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>kralfm.png</IconUrl>
+    <StreamUrl>http://kralwmp.radyotvonline.com/;stream.nsv</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>4</int>
+      <int>18</int>
+      <int>23</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>185</RadioId>
+    <RadioName>Radyo Viva</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>radyoviva.png</IconUrl>
+    <StreamUrl>http://46.20.3.231:80/;stream/1</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>18</int>
+      <int>23</int>
+    </ListCategories>
+  </Radio>
+  <Radio>
+    <RadioId>186</RadioId>
+    <RadioName>Slow Time</RadioName>
+    <IsImageLocal>true</IsImageLocal>
+    <IconUrl>slowtime.png</IconUrl>
+    <StreamUrl>http://46.20.7.103:8030/;stream.nsv</StreamUrl>
+    <IsShow>true</IsShow>
+    <ListCategories>
+      <int>20</int>
     </ListCategories>
   </Radio>
 </ArrayOfRadio>
