@@ -20,6 +20,7 @@ function isIOS() {
 function AddScroll(wrapperName) {
     myScroll = new IScroll('#' + wrapperName, { mouseWheel: true });
     document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
 }
 
 //htm5 set local storage
@@ -51,4 +52,21 @@ function audioPlayStop(isPlay, radioTitle) {
     }
     else
         $("#jplayerRadio").jPlayer("stop");
+}
+
+function showLoading(loadingText) {
+    setTimeout(function () {
+        $.mobile.loading('show', {
+            text: loadingText,
+            textVisible: true,
+            theme: 'c',
+            html: ""
+        });
+    }, 1);
+}
+
+function hideLoading() {
+    setTimeout(function () {
+        $.mobile.loading('hide');
+    }, 2000);
 }

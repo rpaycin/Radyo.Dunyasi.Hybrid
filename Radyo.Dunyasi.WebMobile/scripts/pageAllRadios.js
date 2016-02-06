@@ -1,7 +1,7 @@
 ﻿$(document).on('pageinit', '#pageAllRadios', function () {
     //açılışta tüm radyoları getirme
     getlistViewAllRadio(true, -1);
-    
+
     //radyo item basıldığı zaman
     $(document).on('vclick', '.radyoItem', function () {
         audioPlayStop(false, '');
@@ -32,6 +32,16 @@ function getlistViewAllRadio(isAll, categoryId) {
     var methodUrl = isAll ? 'radio/GetRadios' : 'radio/GetRadiosByCategoryId?categoryId=' + categoryId;
 
     $.ajax({
+        beforeSend: function () {
+            showLoading('Radyolar yükleniyor...');
+        },
+        complete: function () {
+            $('#listViewAllRadio').listview('refresh');
+
+            AddScroll("wrapperRadioList");
+
+            hideLoading();
+        },
         url: serviceURL + methodUrl,
         dataType: 'json',
         success: function (data) {
@@ -43,9 +53,6 @@ function getlistViewAllRadio(isAll, categoryId) {
                         $('#listViewAllRadio').append(getRadioItem(radio));
                     }
                 });
-
-                $('#listViewAllRadio').listview('refresh');
-                AddScroll("wrapperRadioList");
             }
             else
                 alert('radyo bilgileri alınamadı!');

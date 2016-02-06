@@ -6,10 +6,8 @@
     <meta name="apple-mobile-web-app-title" content="Your App">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
-
-    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'" />
-
-    <link rel="apple-touch-icon" href="images/appIcon.png">
+    
+    <link rel="apple-touch-icon" href="img/appIcon.png">
 
     <!--jquery-->
     <script src="scripts/jquery/jquery-1.11.3.min.js"></script>
@@ -51,22 +49,20 @@
         var admobid = {};
         if (/(android)/i.test(navigator.userAgent)) {
             admobid = { // for Android
-                banner: 'ca-app-pub-6869992474017983/9375997553',
-                interstitial: 'ca-app-pub-6869992474017983/1657046752'
+                banner: 'ca-app-pub-6869992474017983/9375997553'
             };
         } else if (/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
             admobid = { // for iOS
-                banner: 'ca-app-pub-6869992474017983/4806197152',
-                interstitial: 'ca-app-pub-6869992474017983/7563979554'
+                banner: 'ca-app-pub-6869992474017983/4806197152'
             };
         } else {
             admobid = { // for Windows Phone
-                banner: 'ca-app-pub-6869992474017983/8878394753',
-                interstitial: 'ca-app-pub-6869992474017983/1355127956'
+                banner: 'ca-app-pub-6869992474017983/8878394753'
             };
         }
 
         function onDeviceReady() {
+            return;
             if (!AdMob) { alert('admob plugin not ready'); return; }
 
             initAd();
@@ -139,7 +135,7 @@
             <span class="title" id="spanAllCategoryName">Tüm Radyolar</span>
         </div>
 
-        <div class="content" data-role="content" data-theme="a">
+        <div class="content" data-role="content" data-theme="a"  style="height: 100%;">
             <div class="wrapperList" id="wrapperRadioList">
                 <div id="scroller">
                     <ul data-role="listview" data-filter="true" data-filter-placeholder="Tüm Radyolarda Ara" id="listViewAllRadio"></ul>
@@ -152,7 +148,6 @@
     <div class="demo-wrapper" data-role="page" id="pageRadioPlay">
 
         <div class="header" data-role="header" id="headerRadioPlay">
-
             <span class="title" id="spanCategoryName"></span>
             <a href="#" data-rel="back" style="margin-top:7px;" data-transition="slide" data-direction="reverse"
                class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Back</a>
@@ -211,7 +206,7 @@
             <div class="wrapperList" id="wrapperCategoriesList">
                 <div id="scroller">
                     <ul data-role="listview" data-count-theme="b" id="listViewCategories">
-                        <li data-theme="b" class="ui-btn  ui-li-has-arrow ui-li ui-corner-bottom ui-btn-up-c">
+                        <!--<li data-theme="b" class="ui-btn  ui-li-has-arrow ui-li ui-corner-bottom ui-btn-up-c">
                             <div class="ui-btn-inner ui-li" aria-hidden="true">
                                 <div class="ui-btn-text">
                                     <a href="docs/about/platforms.html" class="ui-link-inherit">
@@ -219,7 +214,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </li>
+                        </li>-->
                     </ul>
                 </div>
             </div>

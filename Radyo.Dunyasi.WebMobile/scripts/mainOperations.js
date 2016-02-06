@@ -1,12 +1,11 @@
 ﻿//jquery ajax ayarları
-$(document).on({
-    ajaxStart: function () {
-        $.mobile.loading('show', { theme: "b", text: "Lütfen Bekleyiniz..." });
-    },
-    ajaxStop: function () {
-        $.mobile.loading('hide');
-    }
-});
+//$(document).ajaxStart(function () {
+//    $.mobile.loading('show');
+//});
+
+//$(document).ajaxStop(function () {
+//    $.mobile.loading('hide');
+//});
 
 //cihaz ready, pause ve resume eventleri
 $(function () {
@@ -68,6 +67,6 @@ function addHeaderMarginTop() {
         $("#headerCategories").css("margin-top", px);
         $("#panelCategories").css("margin-top", px);
         $("#headerRadioPlay").css("margin-top", px);
-        $(".wrapperList").css("top", "65px");
+        //$(".wrapperList").css("top", "65px");
     }
 }

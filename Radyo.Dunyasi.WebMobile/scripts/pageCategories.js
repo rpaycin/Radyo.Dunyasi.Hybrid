@@ -17,6 +17,16 @@
 
 function getlistViewAllCategories() {
     $.ajax({
+        beforeSend: function () {
+            showLoading('Kategoriler yükleniyor...');
+        },
+        complete: function () {
+            $('#listViewCategories').listview('refresh');
+
+            AddScroll("wrapperCategoriesList");
+
+            hideLoading();
+        },
         url: serviceURL + 'radio/GetCategories',
         dataType: 'json',
         success: function (data) {
@@ -26,14 +36,6 @@ function getlistViewAllCategories() {
                 $.each(data.Value, function (index, category) {
                     $('#listViewCategories').append(getCategoryItem(category));
                 });
-
-                $('#listViewCategories').listview('refresh');
-                myScrollCategories = new IScroll('#wrapperCategoriesList', { mouseWheel: true });
-                //document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-
-                setTimeout(function () {
-                    myScrollCategories.refresh();
-                }, 100);
             }
             else
                 alert('kategoriler alınamadı!');
