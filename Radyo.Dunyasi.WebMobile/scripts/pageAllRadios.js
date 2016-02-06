@@ -54,10 +54,9 @@ function getlistViewAllRadio(isAll, categoryId) {
                     }
                 });
             }
-            else
-                alert('radyo bilgileri alınamadı!');
         },
         error: function (xhr, ajaxOptions, thrownError) {
+            hideLoading();
         },
         timeout: 30000
     });

@@ -37,10 +37,9 @@ function getlistViewAllCategories() {
                     $('#listViewCategories').append(getCategoryItem(category));
                 });
             }
-            else
-                alert('kategoriler alınamadı!');
         },
         error: function (xhr, ajaxOptions, thrownError) {
+            hideLoading();
         },
         timeout: 30000
     });
@@ -50,7 +49,7 @@ function getCategoryItem(category) {
     var categoryItem = " <li data-theme='d' class='ui-btn  ui-li-has-arrow ui-li ui-corner-bottom ui-btn-up-c'>\
                             <div class='ui-btn-inner ui-li' aria-hidden='true'>\
                                 <div class='ui-btn-text'>\
-                                    <a categoryId=" + category.Id + " categoryName=" + category.Name + " class='categoryItem ui-link-inherit'>\
+                                    <a categoryId=" + category.Id + " categoryName='" + category.Name + "' class='categoryItem ui-link-inherit'>\
                                         " + category.Name + "<span class='ui-li-count'>" + category.RadioCount + "</span>\
                                     </a>\
                                 </div>\
