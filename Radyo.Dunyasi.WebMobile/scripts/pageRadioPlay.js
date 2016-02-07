@@ -2,7 +2,8 @@
     $("#spanCategoryName").text(radio.categoryName);
     $("#imgRadioStation").attr('src', radio.imageUrl);
     
-    SetValueLocal(localRadioUrl, radio.radioUrl);
+    SetValueLocal(valueRadioUrl, radio.radioUrl);
+    SetValueLocal(valueImageUrl, radio.imageUrl);
 
     audioPlayStop(true, radio.radioName);
 });

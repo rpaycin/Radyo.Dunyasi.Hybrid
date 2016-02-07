@@ -1,4 +1,6 @@
-﻿var localRadioUrl = "RadioUrl";
+﻿var valueRadioUrl = "RadioUrl";
+var valueImageUrl = "";
+
 var serverUrl = "http://212.98.202.29/StokTakip/";
 var serviceURL = serverUrl + "api/";
 

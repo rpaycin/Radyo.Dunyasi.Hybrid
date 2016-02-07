@@ -41,12 +41,14 @@ function GetValueLocal(key) {
 //audio play and stop
 function audioPlayStop(isPlay, radioTitle) {
     if (isPlay) {
-        var radioUrl = GetValueLocal(localRadioUrl);
+        var radioUrl = GetValueLocal(valueRadioUrl);
+        var imageUrl = GetValueLocal(valueImageUrl);
 
         $('#jplayerRadio').jPlayer('setMedia', {
             oga: radioUrl,
             m4a: radioUrl,
             mp3: radioUrl,
+            poster:imageUrl,
             title: radioTitle
         }).jPlayer("play");
     }
