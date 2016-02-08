@@ -1,13 +1,4 @@
-﻿//jquery ajax ayarları
-//$(document).ajaxStart(function () {
-//    $.mobile.loading('show');
-//});
-
-//$(document).ajaxStop(function () {
-//    $.mobile.loading('hide');
-//});
-
-//cihaz ready, pause ve resume eventleri
+﻿//cihaz ready, pause ve resume eventleri
 $(function () {
     $(document).on('pagebeforeshow', '#pageRadioPlay', function () {
         $('#radioPlayerContent').css('margin-top', ($(window).height() - $('[data-role=header]').height() - $('[data-role=footer]').height() - $('#radioPlayerContent').outerHeight()) / 4);
@@ -69,4 +60,18 @@ function addHeaderMarginTop() {
         $("#headerRadioPlay").css("margin-top", px);
         //$(".wrapperList").css("top", "65px");
     }
+}
+
+$(document).on("pagecontainershow", function () {
+    ScaleContentToDevice();
+
+    $(window).on("resize orientationchange", function () {
+        ScaleContentToDevice();
+    })
+});
+
+function ScaleContentToDevice() {
+    scroll(0, 0);
+    var content = $.mobile.getScreenHeight() - $(".ui-header").outerHeight() - $(".ui-footer").outerHeight() - $(".ui-content").outerHeight() + $(".ui-content").height();
+    $(".ui-content").height(content);
 }
