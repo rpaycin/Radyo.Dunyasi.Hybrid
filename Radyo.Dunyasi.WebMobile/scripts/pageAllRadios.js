@@ -1,6 +1,7 @@
 ﻿$(document).on('pageinit', '#pageAllRadios', function () {
     //açılışta tüm radyoları getirme
-    getlistViewAllRadio(true, -1);
+    getlistViewAllRadio(false, 18);//getlistViewAllRadio(true, -1);
+    $("#spanAllCategoryName").text("Popüler");
 
     //radyo item basıldığı zaman
     $(document).on('vclick', '.radyoItem', function () {
