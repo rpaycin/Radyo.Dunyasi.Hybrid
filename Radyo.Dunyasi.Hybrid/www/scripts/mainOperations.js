@@ -1,16 +1,21 @@
-﻿
-//jquery ajax ayarları
-$(document).on({
-    ajaxStart: function () {
-        $.mobile.loading('show', { theme: "b", text: "Lütfen Bekleyiniz..." });
-    },
-    ajaxStop: function () {
-        $.mobile.loading('hide');
-    }
-});
-
-//cihaz ready, pause ve resume eventleri
+﻿//cihaz ready, pause ve resume eventleri
 $(function () {
+    $(document).on('pagebeforeshow', '#pageRadioPlay', function () {
+        $('#radioPlayerContent').css('margin-top', ($(window).height() - $('[data-role=header]').height() - $('[data-role=footer]').height() - $('#radioPlayerContent').outerHeight()) / 4);
+    });
+
+    //radioplayer başlangıç
+    $("#jplayerRadio").jPlayer({
+        swfPath: "../../dist/jplayer",
+        supplied: "m4a, oga, mp3",
+        useStateClassSkin: true,
+        autoBlur: true,
+        smoothPlayBar: true,
+        keyEnabled: true,
+        remainingDuration: true,
+        toggleDuration: true
+    });
+    
     document.addEventListener('deviceready', onDeviceReady.bind(this), false);
 
     function onDeviceReady() {
@@ -30,14 +35,14 @@ $(function () {
     mainMenuAdd();
 
     //statusbari aşağı kaydırma ios için
-    addHeaderMarginTop();
+    //addHeaderMarginTop();
 });
 
 function mainMenuAdd() {
     var menuHtml = '<ul>' +
        '<li class="allRadios"><a href="#pageAllRadios" data-transition="slide" title="Tüm Radyolar">Tüm Radyolar</a></li>' +
        '<li class="categories"><a href="#pageCategories" data-transition="slide" title="Kategoriler">Kategoriler</a></li>' +
-       '<li class="favourites"><a href="#" data-transition="slide" title="Favorilerim">Favorilerim</a></li>' +
+       //'<li class="favourites"><a href="#" data-transition="slide" title="Favorilerim">Favorilerim</a></li>' +
    '</ul>';
 
     $("#panelAllRadios").append(menuHtml);
@@ -53,24 +58,20 @@ function addHeaderMarginTop() {
         $("#headerCategories").css("margin-top", px);
         $("#panelCategories").css("margin-top", px);
         $("#headerRadioPlay").css("margin-top", px);
-        $(".wrapperList").css("top", "65px");
+        //$(".wrapperList").css("top", "65px");
     }
 }
 
-function AddScroll(wrapperName) {
-    myScroll = new IScroll('#' + wrapperName, { mouseWheel: true });
-    document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-}
+$(document).on("pagecontainershow", function () {
+    ScaleContentToDevice();
 
-function SetValueLocal(key,value) {
-    if (typeof (Storage) !== "undefined") {
-        localStorage.setItem(key,value);
-    } 
-}
+    $(window).on("resize orientationchange", function () {
+        ScaleContentToDevice();
+    })
+});
 
-function GetValueLocal(key) {
-    if (typeof (Storage) !== "undefined") {
-        return localStorage.getItem(key)
-    }
-    return "";
+function ScaleContentToDevice() {
+    scroll(0, 0);
+    var content = $.mobile.getScreenHeight() - $(".ui-header").outerHeight() - $(".ui-footer").outerHeight() - $(".ui-content").outerHeight() + $(".ui-content").height();
+    $(".ui-content").height(content);
 }

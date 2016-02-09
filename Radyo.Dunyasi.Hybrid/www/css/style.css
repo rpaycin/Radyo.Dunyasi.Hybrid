@@ -130,15 +130,15 @@
     }
 
     .demo-wrapper .panel.left .allRadios a:before {
-        content: url(../images/all_radios.png);
+        content: url(../img/all_radios.png);
     }
 
     .demo-wrapper .panel.left .categories a:before {
-        content: url(../images/categories.png);
+        content: url(../img/categories.png);
     }
 
     .demo-wrapper .panel.left .favourites a:before {
-        content: url(../images/favourite.png);
+        content: url(../img/favourite.png);
     }
 
 

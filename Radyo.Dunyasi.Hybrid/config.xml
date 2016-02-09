@@ -118,6 +118,6 @@
   <preference name="InAppBrowserStorageEnabled" value="True" />
   <preference name="SuppressesIncrementalRendering" value="True" />
   <preference name="StatusBarBackgroundColor" value="#000000" />
-  <vs:plugin name="nl.kingsquare.cordova.background-audio" version="1.0.1" src="https://github.com/AubreyHewes/cordova-background-audio.git" />
   <preference name="AndroidLaunchMode" value="standard" />
+  <plugin name="cordova-plugin-admobpro" version="2.11.1" src="https://github.com/floatinghotpot/cordova-admob-pro.git" />
 </widget>

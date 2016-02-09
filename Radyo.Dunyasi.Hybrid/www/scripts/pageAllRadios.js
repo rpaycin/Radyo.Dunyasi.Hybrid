@@ -1,16 +1,11 @@
-﻿var serverUrl = "http://212.98.202.29/StokTakip/";
-var serviceURL = serverUrl + "api/";
-
-var serverImageURL = serverUrl + "Contents/Images/Radyolar/";
-var localImageURL = "images/radyolar/";
-
-$(function () {
+﻿$(document).on('pageinit', '#pageAllRadios', function () {
     //açılışta tüm radyoları getirme
-    getlistViewAllRadio();
+    getlistViewAllRadio(false, 18);//getlistViewAllRadio(true, -1);
+    $("#spanAllCategoryName").text("Popüler");
 
     //radyo item basıldığı zaman
     $(document).on('vclick', '.radyoItem', function () {
-        audioStop();
+        audioPlayStop(false, '');
 
         radio.radioUrl = $(this).attr('radioUrl');
         radio.imageUrl = $(this).attr('radioImageUrl');
@@ -21,11 +16,35 @@ $(function () {
     });
 });
 
-function getlistViewAllRadio() {
+$(document).on('pagebeforeshow', '#pageAllRadios', function () {
+    if (!isWorkAllRadio) {
+
+        $("#spanAllCategoryName").text(category.categoryName);
+        getlistViewAllRadio(isAllCategory, category.categoryId);
+
+        category.categoryId = -1;
+
+        isAllCategory = true;
+        isWorkAllRadio = true;
+    }
+});
+
+function getlistViewAllRadio(isAll, categoryId) {
+    var methodUrl = isAll ? 'radio/GetRadios' : 'radio/GetRadiosByCategoryId?categoryId=' + categoryId;
+
     $.ajax({
-        url: serviceURL + 'radio/GetRadios',
+        beforeSend: function () {
+            showLoading('Radyolar yükleniyor...');
+        },
+        complete: function () {
+            $('#listViewAllRadio').listview('refresh');
+
+            AddScroll("wrapperRadioList");
+
+            hideLoading();
+        },
+        url: serviceURL + methodUrl,
         dataType: 'json',
-        //data: data,
         success: function (data) {
             if (data.IsSuccess) {
                 $('#listViewAllRadio li').remove();
@@ -35,14 +54,12 @@ function getlistViewAllRadio() {
                         $('#listViewAllRadio').append(getRadioItem(radio));
                     }
                 });
-                
-                $('#listViewAllRadio').listview('refresh');
-                AddScroll("wrapperRadioList");
             }
-            else
-                alert('radyo bilgileri alınamadı!');
         },
-        timeout: 30000 
+        error: function (xhr, ajaxOptions, thrownError) {
+            hideLoading();
+        },
+        timeout: 30000
     });
 }
 
