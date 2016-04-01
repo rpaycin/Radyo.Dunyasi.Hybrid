@@ -25,7 +25,7 @@
   <Radio>
     <RadioId>3</RadioId>
     <RadioName>38 Kent FM</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>38kentfm.png</IconUrl>
     <StreamUrl>http://yayin2.yayindakiler.com:4056/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -50,7 +50,7 @@
   <Radio>
     <RadioId>5</RadioId>
     <RadioName>Arabesk Radyo</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>arabeskradyo.png</IconUrl>
     <StreamUrl>http://yayindinle.com:7446/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -62,7 +62,7 @@
   <Radio>
     <RadioId>6</RadioId>
     <RadioName>Arabesk Türkiye</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>arabeskturkiye.png</IconUrl>
     <StreamUrl>http://arabeskturkiye.com:9999/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -107,7 +107,7 @@
   <Radio>
     <RadioId>10</RadioId>
     <RadioName>Beste FM</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>bestefm.png</IconUrl>
     <StreamUrl>http://85.25.120.98:18184/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -250,7 +250,7 @@
   <Radio>
     <RadioId>22</RadioId>
     <RadioName>Genç FM Pop</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>gencfmpop.png</IconUrl>
     <StreamUrl>http://yayin1.yayindakiler.com:3168/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -336,7 +336,7 @@
   <Radio>
     <RadioId>29</RadioId>
     <RadioName>İstanbul Polis Radyosu</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>istanbulpolisradyosu.png</IconUrl>
     <StreamUrl>http://live4.radyotvonline.com:8040/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -407,7 +407,7 @@
   <Radio>
     <RadioId>35</RadioId>
     <RadioName>Lakka Souli Radio</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>lakkasouliradio.png</IconUrl>
     <StreamUrl>http://eco.onestreaming.com:8286/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -446,7 +446,7 @@
   <Radio>
     <RadioId>38</RadioId>
     <RadioName>Max FM</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>maxfm.png</IconUrl>
     <StreamUrl>http://live2.radyotvonline.com:8025/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -458,7 +458,7 @@
   <Radio>
     <RadioId>39</RadioId>
     <RadioName>Mesaj FM</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>mesajfm.png</IconUrl>
     <StreamUrl>http://yayin3.canlitv.com:8010/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -553,7 +553,7 @@
   <Radio>
     <RadioId>47</RadioId>
     <RadioName>Pal FM</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>palfm.png</IconUrl>
     <StreamUrl>http://77.223.136.16:9920/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -577,7 +577,7 @@
   <Radio>
     <RadioId>49</RadioId>
     <RadioName>Panos Geramanis</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>panosgeramanis.png</IconUrl>
     <StreamUrl>http://eco.onestreaming.com:8215/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -589,7 +589,7 @@
   <Radio>
     <RadioId>50</RadioId>
     <RadioName>Radio Magic Hits</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radiomagichits.png</IconUrl>
     <StreamUrl>http://arabeskturkiye.com:2222/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -669,7 +669,7 @@
   <Radio>
     <RadioId>57</RadioId>
     <RadioName>Radyo Banko</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyobanko.png</IconUrl>
     <StreamUrl>http://park.netradyom.com:11148/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -725,7 +725,7 @@
   <Radio>
     <RadioId>62</RadioId>
     <RadioName>Radyo Hatmar</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyohatmar.png</IconUrl>
     <StreamUrl>http://yayin1.yayindakiler.com:3026/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -759,7 +759,7 @@
   <Radio>
     <RadioId>65</RadioId>
     <RadioName>Radyo Martı</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyomarti.png</IconUrl>
     <StreamUrl>http://sunucu4.radyolarburada.com:9880/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -783,7 +783,7 @@
   <Radio>
     <RadioId>67</RadioId>
     <RadioName>Radyo Mega Ordu</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyomegaordu.png</IconUrl>
     <StreamUrl>http://176.31.105.44:9944/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -842,7 +842,7 @@
   <Radio>
     <RadioId>72</RadioId>
     <RadioName>Radyo Şeker</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyoseker.png</IconUrl>
     <StreamUrl>http://46.165.233.174:3110/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -867,7 +867,7 @@
   <Radio>
     <RadioId>74</RadioId>
     <RadioName>Radyo Seymen</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyoseymen.png</IconUrl>
     <StreamUrl>http://213.128.77.142:8050/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -1052,7 +1052,7 @@
   <Radio>
     <RadioId>90</RadioId>
     <RadioName>Radyonom - Efsane</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyonomefsane.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/efsane</StreamUrl>
     <IsShow>true</IsShow>
@@ -1063,7 +1063,7 @@
   <Radio>
     <RadioId>91</RadioId>
     <RadioName>Radyonom - Gazino</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyonomgazino.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/gazino</StreamUrl>
     <IsShow>true</IsShow>
@@ -1074,7 +1074,7 @@
   <Radio>
     <RadioId>92</RadioId>
     <RadioName>Radyonom - Hit Play</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyonomhitplay.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/hitplay</StreamUrl>
     <IsShow>true</IsShow>
@@ -1085,7 +1085,7 @@
   <Radio>
     <RadioId>93</RadioId>
     <RadioName>Radyonom - Kafam</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyonomkafa.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/kafa</StreamUrl>
     <IsShow>true</IsShow>
@@ -1096,7 +1096,7 @@
   <Radio>
     <RadioId>94</RadioId>
     <RadioName>Radyonom - Klasik</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyonomklasik.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/klasik</StreamUrl>
     <IsShow>true</IsShow>
@@ -1107,7 +1107,7 @@
   <Radio>
     <RadioId>95</RadioId>
     <RadioName>Radyonom - Latin</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyonomlatin.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/latintest</StreamUrl>
     <IsShow>true</IsShow>
@@ -1118,7 +1118,7 @@
   <Radio>
     <RadioId>96</RadioId>
     <RadioName>Radyonom - Loca</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyonomloca.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/loca</StreamUrl>
     <IsShow>true</IsShow>
@@ -1129,7 +1129,7 @@
   <Radio>
     <RadioId>97</RadioId>
     <RadioName>Radyonom - Mazi</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyonommazi.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/mazi</StreamUrl>
     <IsShow>true</IsShow>
@@ -1140,7 +1140,7 @@
   <Radio>
     <RadioId>98</RadioId>
     <RadioName>Radyonom - Pop Corn</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyonompopcorn.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/popcorn</StreamUrl>
     <IsShow>true</IsShow>
@@ -1151,7 +1151,7 @@
   <Radio>
     <RadioId>99</RadioId>
     <RadioName>Radyonom - Radyo Cazz</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyonomradyocazz.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/radyocazz</StreamUrl>
     <IsShow>true</IsShow>
@@ -1162,7 +1162,7 @@
   <Radio>
     <RadioId>100</RadioId>
     <RadioName>Radyo D</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyod.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/radyod</StreamUrl>
     <IsShow>true</IsShow>
@@ -1174,7 +1174,7 @@
   <Radio>
     <RadioId>101</RadioId>
     <RadioName>Radyonom - Rock Cafe</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyonomrockcafe.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/rockcafe</StreamUrl>
     <IsShow>true</IsShow>
@@ -1185,7 +1185,7 @@
   <Radio>
     <RadioId>102</RadioId>
     <RadioName>Radyonom - Sultan</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyonomsultan.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/sultan</StreamUrl>
     <IsShow>true</IsShow>
@@ -1196,7 +1196,7 @@
   <Radio>
     <RadioId>103</RadioId>
     <RadioName>Radyonom - Türk Pop</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyonomturkpop.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/turkpop</StreamUrl>
     <IsShow>true</IsShow>
@@ -1207,7 +1207,7 @@
   <Radio>
     <RadioId>104</RadioId>
     <RadioName>Radyonom - Türkü Bar</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyonomturkubar.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/turkubar</StreamUrl>
     <IsShow>true</IsShow>
@@ -1229,7 +1229,7 @@
   <Radio>
     <RadioId>106</RadioId>
     <RadioName>Dream</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>dream.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/dream</StreamUrl>
     <IsShow>true</IsShow>
@@ -1263,7 +1263,7 @@
   <Radio>
     <RadioId>109</RadioId>
     <RadioName>Radio Laikos</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radiolaikos.png</IconUrl>
     <StreamUrl>http://iphone.live24.gr/laikos876?9ea8934e85c742afcda11a41f8876e8d?1355957916562.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1285,7 +1285,7 @@
   <Radio>
     <RadioId>111</RadioId>
     <RadioName>French Kiss FM</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>frenchkissfm.png</IconUrl>
     <StreamUrl>http://stream.frenchkissfm.com:80/</StreamUrl>
     <IsShow>true</IsShow>
@@ -1296,7 +1296,7 @@
   <Radio>
     <RadioId>112</RadioId>
     <RadioName>Exits 70,80,90s</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>exits708090s.png</IconUrl>
     <StreamUrl>http://streaming204.radionomy.com/80-EXITS</StreamUrl>
     <IsShow>true</IsShow>
@@ -1320,7 +1320,7 @@
   <Radio>
     <RadioId>114</RadioId>
     <RadioName>Arabesk FM</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>arabeskfm.png</IconUrl>
     <StreamUrl>http://yayin.damarfm.com:8080/mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1401,7 +1401,7 @@
   <Radio>
     <RadioId>121</RadioId>
     <RadioName>Power MiniMix</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>powerminimix.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr:80/PowerMiniMix/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
@@ -1413,7 +1413,7 @@
   <Radio>
     <RadioId>122</RadioId>
     <RadioName>Power Rocks</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>powerrocks.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr:80/PowerRocks/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
@@ -1424,7 +1424,7 @@
   <Radio>
     <RadioId>123</RadioId>
     <RadioName>Power Salsa</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>powersalsa.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr/PowerSalsa/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
@@ -1435,7 +1435,7 @@
   <Radio>
     <RadioId>124</RadioId>
     <RadioName>Power Smooth Jazz</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>powersmoothjazz.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr:80/PowerJazz/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
@@ -1457,7 +1457,7 @@
   <Radio>
     <RadioId>126</RadioId>
     <RadioName>PowerTürk</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>powerturk.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr/PowerTurk/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
@@ -1469,7 +1469,7 @@
   <Radio>
     <RadioId>127</RadioId>
     <RadioName>PowerTürk Akustik</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>powerturkakustik.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr:80/PowerTurkAkustik/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
@@ -1481,7 +1481,7 @@
   <Radio>
     <RadioId>128</RadioId>
     <RadioName>PowerTürk Rock</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>powerturkrock.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr/PowerTurkRock/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
@@ -1492,7 +1492,7 @@
   <Radio>
     <RadioId>129</RadioId>
     <RadioName>PowerTürk Taptaze</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>powerturktaptaze.png</IconUrl>
     <StreamUrl>http://icast.powergroup.com.tr/PowerTurkTaptaze/mpeg/128/home</StreamUrl>
     <IsShow>true</IsShow>
@@ -1504,7 +1504,7 @@
   <Radio>
     <RadioId>130</RadioId>
     <RadioName>Slow Türk</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>slowturk.png</IconUrl>
     <StreamUrl>http://radyo.dogannet.tv/slowturk</StreamUrl>
     <IsShow>true</IsShow>
@@ -1517,7 +1517,7 @@
   <Radio>
     <RadioId>131</RadioId>
     <RadioName>Best of the 80s</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>bestofthe80s.png</IconUrl>
     <StreamUrl>http://pub5.radiotunes.com/radiotunes_the80s_aacplus</StreamUrl>
     <IsShow>true</IsShow>
@@ -1552,7 +1552,7 @@
   <Radio>
     <RadioId>134</RadioId>
     <RadioName>Cesur FM</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>cesurfm.png</IconUrl>
     <StreamUrl>http://cesurfm.canliyayinda.com:8048/listen.pls</StreamUrl>
     <IsShow>true</IsShow>
@@ -1566,7 +1566,7 @@
   <Radio>
     <RadioId>135</RadioId>
     <RadioName>Karma Türk</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>karmaturk.png</IconUrl>
     <StreamUrl>http://188.227.181.186:9900/</StreamUrl>
     <IsShow>true</IsShow>
@@ -1577,7 +1577,7 @@
   <Radio>
     <RadioId>136</RadioId>
     <RadioName>Romantik Radyo</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>romantikradyo.png</IconUrl>
     <StreamUrl>http://rdshout.turkuvazgroup.net:7000/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1588,7 +1588,7 @@
   <Radio>
     <RadioId>137</RadioId>
     <RadioName>Radyo Fenomen</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyofenomen.png</IconUrl>
     <StreamUrl>http://185.28.3.14/fenomen/fenomenweb_aac_64_mobile/icecast.audio</StreamUrl>
     <IsShow>true</IsShow>
@@ -1600,7 +1600,7 @@
   <Radio>
     <RadioId>138</RadioId>
     <RadioName>İstanbul FM</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>istanbulfm.png</IconUrl>
     <StreamUrl>http://46.165.197.36:8000/istanbulfm</StreamUrl>
     <IsShow>true</IsShow>
@@ -1613,7 +1613,7 @@
   <Radio>
     <RadioId>139</RadioId>
     <RadioName>Fenomen Clubbin</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>fenomenclubbin.png</IconUrl>
     <StreamUrl>http://185.28.3.14/fenomen/fenomenclubbin_aac_64_mobile/icecast.audio</StreamUrl>
     <IsShow>true</IsShow>
@@ -1624,7 +1624,7 @@
   <Radio>
     <RadioId>140</RadioId>
     <RadioName>Fenomen Pop</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>fenomenpop.png</IconUrl>
     <StreamUrl>http://185.28.3.14/fenomen/fenomenpop_aac_64_mobile/icecast.audio</StreamUrl>
     <IsShow>true</IsShow>
@@ -1635,7 +1635,7 @@
   <Radio>
     <RadioId>141</RadioId>
     <RadioName>Fenomen Rap</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>fenomenrap.png</IconUrl>
     <StreamUrl>http://185.28.3.14/fenomen/fenomenrap_aac_64_mobile/icecast.audio</StreamUrl>
     <IsShow>true</IsShow>
@@ -1646,7 +1646,7 @@
   <Radio>
     <RadioId>142</RadioId>
     <RadioName>Fenomen Türk</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>fenomenturk.png</IconUrl>
     <StreamUrl>http://185.28.3.14/fenomen/fenomenturk_aac_64_mobile/icecast.audio</StreamUrl>
     <IsShow>true</IsShow>
@@ -1680,7 +1680,7 @@
   <Radio>
     <RadioId>145</RadioId>
     <RadioName>Joy Fm</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>joyfm.png</IconUrl>
     <StreamUrl>http://7929.live.streamtheworld.com/JOY_FM.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1693,7 +1693,7 @@
   <Radio>
     <RadioId>146</RadioId>
     <RadioName>Metro Fm</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>metrofm.png</IconUrl>
     <StreamUrl>http://7499.live.streamtheworld.com/METRO_FM2.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1706,7 +1706,7 @@
   <Radio>
     <RadioId>147</RadioId>
     <RadioName>Radyo Virgin</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyovirgin.png</IconUrl>
     <StreamUrl>http://7499.live.streamtheworld.com/VIRGIN_RADIO.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1730,7 +1730,7 @@
   <Radio>
     <RadioId>149</RadioId>
     <RadioName>Rock Fm</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>rockfm.png</IconUrl>
     <StreamUrl>http://188.227.181.186:9450/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1780,7 +1780,7 @@
   <Radio>
     <RadioId>153</RadioId>
     <RadioName>Joy Jazz</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>joyjazz.png</IconUrl>
     <StreamUrl>http://7499.live.streamtheworld.com/JOY_JAZZ.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1792,7 +1792,7 @@
   <Radio>
     <RadioId>154</RadioId>
     <RadioName>Kantin Radyo</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>kantinradyo.png</IconUrl>
     <StreamUrl>http://7499.live.streamtheworld.com/KANTIN.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1803,7 +1803,7 @@
   <Radio>
     <RadioId>155</RadioId>
     <RadioName>Radio 5</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radio5.png</IconUrl>
     <StreamUrl>http://radio5tr.canliyayinda.com:8117/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1826,7 +1826,7 @@
   <Radio>
     <RadioId>157</RadioId>
     <RadioName>Number One Dance</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>numberonedance.png</IconUrl>
     <StreamUrl>http://sh.mncdn.com:8114/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1850,7 +1850,7 @@
   <Radio>
     <RadioId>159</RadioId>
     <RadioName>Radio Line</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radioline.png</IconUrl>
     <StreamUrl>http://www.radioline.fm:8002/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1862,7 +1862,7 @@
   <Radio>
     <RadioId>160</RadioId>
     <RadioName>Taksim Fm Arabic</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>taksimfmarabic.png</IconUrl>
     <StreamUrl>http://cast1.taksim.fm:8006/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1873,7 +1873,7 @@
   <Radio>
     <RadioId>161</RadioId>
     <RadioName>Lig Radyo</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>ligradyo.png</IconUrl>
     <StreamUrl>http://46.20.7.101/;stream/1</StreamUrl>
     <IsShow>true</IsShow>
@@ -1884,7 +1884,7 @@
   <Radio>
     <RadioId>162</RadioId>
     <RadioName>Radio One</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radioone.png</IconUrl>
     <StreamUrl>http://sunucu1.radyolarburada.com:9085/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1896,7 +1896,7 @@
   <Radio>
     <RadioId>163</RadioId>
     <RadioName>Radyo Pop</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyopop.png</IconUrl>
     <StreamUrl>http://yayin2.yayindayiz.biz:9010/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1919,7 +1919,7 @@
   <Radio>
     <RadioId>165</RadioId>
     <RadioName>Park fm</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>parkfm.png</IconUrl>
     <StreamUrl>http://park.netradyom.com:1345/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1941,7 +1941,7 @@
   <Radio>
     <RadioId>167</RadioId>
     <RadioName>Borusan Klasik</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>borusanklasik.png</IconUrl>
     <StreamUrl>http://7499.live.streamtheworld.com/BORUSAN_KLASIK.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1963,7 +1963,7 @@
   <Radio>
     <RadioId>169</RadioId>
     <RadioName>Bayrak Klasik</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>bayrakkasik.png</IconUrl>
     <StreamUrl>http://sc.brtk.net:8006/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1985,7 +1985,7 @@
   <Radio>
     <RadioId>171</RadioId>
     <RadioName>Radyo Budems Klasik</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>budemsklasik.png</IconUrl>
     <StreamUrl>http://radyobudems.canliyayindinle.com:9988/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -1996,7 +1996,7 @@
   <Radio>
     <RadioId>172</RadioId>
     <RadioName>Retro Türk</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>retroturk.png</IconUrl>
     <StreamUrl>http://7469.live.streamtheworld.com/RETROTURK.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2021,7 +2021,7 @@
   <Radio>
     <RadioId>174</RadioId>
     <RadioName>X Nostalji</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>xnostalji.png</IconUrl>
     <StreamUrl>http://46.20.13.51:1140/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2032,7 +2032,7 @@
   <Radio>
     <RadioId>175</RadioId>
     <RadioName>Galatasaray Radyo</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>galatasarayradyo.png</IconUrl>
     <StreamUrl>http://7919.live.streamtheworld.com/GS_RADYO.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2068,7 +2068,7 @@
   <Radio>
     <RadioId>178</RadioId>
     <RadioName>Best Fm</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>bestfm.png</IconUrl>
     <StreamUrl>http://46.20.7.126/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2080,7 +2080,7 @@
   <Radio>
     <RadioId>179</RadioId>
     <RadioName>Power Fm</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>powerfm.png</IconUrl>
     <StreamUrl>http://sc.powergroup.com.tr:80/PowerFM/aac/64/www</StreamUrl>
     <IsShow>true</IsShow>
@@ -2105,7 +2105,7 @@
   <Radio>
     <RadioId>181</RadioId>
     <RadioName>Radyo Eksen</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyoeksen.png</IconUrl>
     <StreamUrl>http://eksenwmp.radyotvonline.com/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2118,7 +2118,7 @@
   <Radio>
     <RadioId>182</RadioId>
     <RadioName>Süper Fm</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>superfm.png</IconUrl>
     <StreamUrl>http://7919.live.streamtheworld.com/SUPER_FM.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2168,7 +2168,7 @@
   <Radio>
     <RadioId>186</RadioId>
     <RadioName>Slow Time</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>slowtime.png</IconUrl>
     <StreamUrl>http://46.20.7.103:8030/;stream.nsv</StreamUrl>
     <IsShow>true</IsShow>
@@ -2179,7 +2179,7 @@
   <Radio>
     <RadioId>187</RadioId>
     <RadioName>Alem Fm</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>alemfm.png</IconUrl>
     <StreamUrl>http://46.20.7.102:80/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2191,7 +2191,7 @@
   <Radio>
     <RadioId>188</RadioId>
     <RadioName>Baba Radyo</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>babaradyo.png</IconUrl>
     <StreamUrl>http://46.20.7.116:80/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -2203,7 +2203,7 @@
   <Radio>
     <RadioId>189</RadioId>
     <RadioName>Akra Fm</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>akrafm.png</IconUrl>
     <StreamUrl>http://canli.akradyo.net:7895/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -2226,7 +2226,7 @@
   <Radio>
     <RadioId>191</RadioId>
     <RadioName>Kral Pop</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>kralpop.png</IconUrl>
     <StreamUrl>http://kralpopwmp.radyotvonline.com/;stream.nsv</StreamUrl>
     <IsShow>true</IsShow>
@@ -2238,7 +2238,7 @@
   <Radio>
     <RadioId>192</RadioId>
     <RadioName>Ostim Radyo</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>ostimradyo.png</IconUrl>
     <StreamUrl>http://46.105.126.74:8079/;stream.nsv</StreamUrl>
     <IsShow>true</IsShow>
@@ -2249,7 +2249,7 @@
   <Radio>
     <RadioId>193</RadioId>
     <RadioName>Radyo 7</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyo7.png</IconUrl>
     <StreamUrl>http://radio.gostream.nl/proxy/radyoyedi?mp=/radyo7</StreamUrl>
     <IsShow>true</IsShow>
@@ -2261,7 +2261,7 @@
   <Radio>
     <RadioId>194</RadioId>
     <RadioName>Joy Türk Akustik</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>joyturkakustik.png</IconUrl>
     <StreamUrl>http://7499.live.streamtheworld.com/JOYTURK_AKUSTIK.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2295,7 +2295,7 @@
   <Radio>
     <RadioId>197</RadioId>
     <RadioName>Radyo Ahmet Kaya</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyoahmetkaya.png</IconUrl>
     <StreamUrl>http://dinle.ahmetkaya.biz:9999/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2318,7 +2318,7 @@
   <Radio>
     <RadioId>199</RadioId>
     <RadioName>Number One Slow</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>numberoneslow.png</IconUrl>
     <StreamUrl>http://sh.mncdn.com:8096/;stream.mp</StreamUrl>
     <IsShow>true</IsShow>
@@ -2342,7 +2342,7 @@
   <Radio>
     <RadioId>201</RadioId>
     <RadioName>Joy Türk Akustik</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>joyuturkakustik.png</IconUrl>
     <StreamUrl>http://7499.live.streamtheworld.com/JOYTURK_AKUSTIK.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2376,7 +2376,7 @@
   <Radio>
     <RadioId>204</RadioId>
     <RadioName>Radyo Sagopa</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyosagopa.png</IconUrl>
     <StreamUrl>http://192.99.172.132:1989/;</StreamUrl>
     <IsShow>true</IsShow>
@@ -2398,7 +2398,7 @@
   <Radio>
     <RadioId>206</RadioId>
     <RadioName>İTÜ Caz</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>itucaz.png</IconUrl>
     <StreamUrl>http://160.75.86.29:8090/</StreamUrl>
     <IsShow>true</IsShow>
@@ -2410,7 +2410,7 @@
   <Radio>
     <RadioId>207</RadioId>
     <RadioName>İTÜ Rock</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>iturock.png</IconUrl>
     <StreamUrl>http://160.75.86.29:8095/</StreamUrl>
     <IsShow>true</IsShow>
@@ -2422,7 +2422,7 @@
   <Radio>
     <RadioId>208</RadioId>
     <RadioName>Radio Mozart</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radiomozart.png</IconUrl>
     <StreamUrl>http://listen.radionomy.com/radio-mozart;</StreamUrl>
     <IsShow>true</IsShow>
@@ -2433,7 +2433,7 @@
   <Radio>
     <RadioId>209</RadioId>
     <RadioName>Luxury Lounge</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>luxurylounge.png</IconUrl>
     <StreamUrl>http://37.1.144.106:9003/;stream.nsv&amp;type=mp3&amp;</StreamUrl>
     <IsShow>true</IsShow>
@@ -2467,7 +2467,7 @@
   <Radio>
     <RadioId>212</RadioId>
     <RadioName>Rock On Air</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>rockonair.png</IconUrl>
     <StreamUrl>http://50.7.70.130:8367/;stream.mp3;</StreamUrl>
     <IsShow>true</IsShow>
@@ -2491,7 +2491,7 @@
   <Radio>
     <RadioId>214</RadioId>
     <RadioName>Radyo Fenerbahçe</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyofenerbahce.png</IconUrl>
     <StreamUrl>http://91.232.174.18:8000/Stream</StreamUrl>
     <IsShow>true</IsShow>
@@ -2502,7 +2502,7 @@
   <Radio>
     <RadioId>215</RadioId>
     <RadioName>Lokum Fm</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>lokumfm.png</IconUrl>
     <StreamUrl>http://sunucu2.radyolarburada.com:9070/;stream.mp3;</StreamUrl>
     <IsShow>true</IsShow>
@@ -2515,7 +2515,7 @@
   <Radio>
     <RadioId>216</RadioId>
     <RadioName>Efkar</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>efkar.png</IconUrl>
     <StreamUrl>http://7499.live.streamtheworld.com/EFKAR.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2538,7 +2538,7 @@
   <Radio>
     <RadioId>218</RadioId>
     <RadioName>Makam</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>makam.png</IconUrl>
     <StreamUrl>http://7499.live.streamtheworld.com/MAKAM.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2585,7 +2585,7 @@
   <Radio>
     <RadioId>222</RadioId>
     <RadioName>Radyo Nefes</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyonefes.png</IconUrl>
     <StreamUrl>http://radyonefes.net:8000/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2596,7 +2596,7 @@
   <Radio>
     <RadioId>223</RadioId>
     <RadioName>Radyo İlaç</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyoilac.png</IconUrl>
     <StreamUrl>http://yayin.kaliteweb.com:8044/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2607,7 +2607,7 @@
   <Radio>
     <RadioId>224</RadioId>
     <RadioName>Aşk Fm</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>askfm.png</IconUrl>
     <StreamUrl>http://46.105.126.74:8020/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2629,7 +2629,7 @@
   <Radio>
     <RadioId>226</RadioId>
     <RadioName>Arabeskin Sesi</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>arabeskinsesi.png</IconUrl>
     <StreamUrl>http://www.arabeskinsesi.net:9958/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2640,7 +2640,7 @@
   <Radio>
     <RadioId>227</RadioId>
     <RadioName>Radyo İmparator</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyoimparator.png</IconUrl>
     <StreamUrl>http://imparator.radyotvyayini.com:3434/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2673,7 +2673,7 @@
   <Radio>
     <RadioId>230</RadioId>
     <RadioName>Radyo Balkan</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyobalkan.png</IconUrl>
     <StreamUrl>http://sesle.radyobalkan.com:8050/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2695,7 +2695,7 @@
   <Radio>
     <RadioId>232</RadioId>
     <RadioName>Bozkurtlar Fm</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>bozkurtlarfm.png</IconUrl>
     <StreamUrl>http://bozkurtlarfm.canliyayinda.com:4040/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2706,7 +2706,7 @@
   <Radio>
     <RadioId>233</RadioId>
     <RadioName>Dicle Fm</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>diclefm.png</IconUrl>
     <StreamUrl>http://yayin1.yayindakiler.com:2034/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2717,7 +2717,7 @@
   <Radio>
     <RadioId>234</RadioId>
     <RadioName>Kemençe Fm</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>kemencefm.png</IconUrl>
     <StreamUrl>http://dinle.kemencefm.com:6161/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2750,7 +2750,7 @@
   <Radio>
     <RadioId>237</RadioId>
     <RadioName>Ege Fm</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>egefm.png</IconUrl>
     <StreamUrl>http://sunucu.radyodinle.com:2024/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2761,7 +2761,7 @@
   <Radio>
     <RadioId>238</RadioId>
     <RadioName>Radyo 7 Sanat</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>radyo7sanat.png</IconUrl>
     <StreamUrl>http://radio.gostream.nl/proxy/radyo7sanat?mp=/stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2772,7 +2772,7 @@
   <Radio>
     <RadioId>239</RadioId>
     <RadioName>Süper 2 Fm</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>super2fm.png</IconUrl>
     <StreamUrl>http://7499.live.streamtheworld.com/SUPER2.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2784,7 +2784,7 @@
   <Radio>
     <RadioId>240</RadioId>
     <RadioName>Number One Türk Slow</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>numberoneturkslow.png</IconUrl>
     <StreamUrl>http://sh.mncdn.com:8102/;stream.mp3;</StreamUrl>
     <IsShow>true</IsShow>
@@ -2796,7 +2796,7 @@
   <Radio>
     <RadioId>241</RadioId>
     <RadioName>Taksim Fm Slow</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>taksimfmslow.png</IconUrl>
     <StreamUrl>http://cast1.taksim.fm:8002/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2819,7 +2819,7 @@
   <Radio>
     <RadioId>243</RadioId>
     <RadioName>Taksim Fm Pop</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>taksimfmpop.png</IconUrl>
     <StreamUrl>http://cast1.taksim.fm:8014/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2832,7 +2832,7 @@
   <Radio>
     <RadioId>244</RadioId>
     <RadioName>Rize Radyo Karadeniz</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>rizeradyokaradeniz.png</IconUrl>
     <StreamUrl>http://karadeniz.hopto.org:5353/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>
@@ -2844,7 +2844,7 @@
   <Radio>
     <RadioId>245</RadioId>
     <RadioName>Nazilli Mega Radyo</RadioName>
-    <IsImageLocal>true</IsImageLocal>
+    <IsImageLocal>false</IsImageLocal>
     <IconUrl>nazillimegaradyo.png</IconUrl>
     <StreamUrl>http://radyo.hostcini.com:9870/;stream.mp3</StreamUrl>
     <IsShow>true</IsShow>

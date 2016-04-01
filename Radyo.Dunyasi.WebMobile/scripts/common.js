@@ -70,5 +70,5 @@ function showLoading(loadingText) {
 function hideLoading() {
     setTimeout(function () {
         $.mobile.loading('hide');
-    }, 2000);
+    }, 1000);
 }

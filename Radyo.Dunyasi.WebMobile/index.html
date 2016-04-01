@@ -49,11 +49,11 @@
         var admobid = {};
         if (/(android)/i.test(navigator.userAgent)) {
             admobid = { // for Android
-                banner: 'ca-app-pub-6869992474017983/9375997553'
+                banner: 'ca-app-pub-6022968583924753/6010156627'
             };
         } else if (/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
             admobid = { // for iOS
-                banner: 'ca-app-pub-6869992474017983/4806197152'
+                banner: 'ca-app-pub-6022968583924753/1440356223'
             };
         } else {
             admobid = { // for Windows Phone
@@ -62,7 +62,6 @@
         }
 
         function onDeviceReady() {
-            return;
             if (!AdMob) { alert('admob plugin not ready'); return; }
 
             initAd();
@@ -107,11 +106,11 @@
             createSelectedBanner();
 
             $(document).on('backbutton', function () {
-                if (window.confirm('Are you sure to quit?')) navigator.app.exitApp();
+                if (window.confirm('Uygulamadan çıkmak istediğinize emin misiniz?')) navigator.app.exitApp();
             });
 
             $(document).on('resume', function () {
-                AdMob.showInterstitial();
+                AdMob.showInterstitial(); //BURAYI KONTROL ET
             });
         }
 
@@ -135,7 +134,7 @@
             <span class="title" id="spanAllCategoryName">Tüm Radyolar</span>
         </div>
 
-        <div class="content" data-role="content" data-theme="a" >
+        <div class="content" data-role="content" data-theme="a" style="height: 100%;">
             <div class="wrapperList" id="wrapperRadioList">
                 <div id="scroller1">
                     <ul data-role="listview" data-filter="true" data-filter-placeholder="Tüm Radyolarda Ara" id="listViewAllRadio"></ul>
@@ -202,10 +201,28 @@
             <span class="title">Kategoriler</span>
         </div>
 
-        <div class="content" data-role="content">
+        <div class="content" data-role="content" style="height: 100%;  margin: 0; padding: 0;">
             <div class="wrapperList" id="wrapperCategoriesList">
                 <div id="scroller2">
                     <ul data-role="listview" data-count-theme="b" id="listViewCategories"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--A-Z ye sıralı radyolistesi-->
+    <div class="demo-wrapper" data-role="page" id="pageOrderByName">
+        <div class="panel left" data-role="panel" data-position="left" data-display="push" id="panelOrderByName"></div>
+
+        <div class="header" data-role="header" id="headerOrderByName">
+            <span class="open left"><a href="#panelOrderByName">&#61641;</a></span>
+            <span class="title" id="spanOrderByName">Sıralı Radyo Listesi</span>
+        </div>
+
+        <div class="content" data-role="content" data-theme="a">
+            <div class="wrapperList" id="wrapperOrderByName">
+                <div id="scrollerOrderByName">
+                    <ul data-role="listview" data-filter="true" data-filter-placeholder="Sıralı Radyolarda Ara" id="listViewOrderByName"></ul>
                 </div>
             </div>
         </div>
@@ -218,5 +235,6 @@
     <script src="scripts/pageAllRadios.js"></script>
     <script src="scripts/pageRadioPlay.js"></script>
     <script src="scripts/pageCategories.js"></script>
+    <script src="scripts/pageOrderByName.js"></script>
 </body>
 </html>

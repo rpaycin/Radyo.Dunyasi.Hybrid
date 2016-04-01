@@ -29,7 +29,6 @@ namespace Radyo.Dunyasi.WebApi.Controllers
             return result;
         }
 
-
         public Response<List<Radio>> GetRadiosByCategoryId(int categoryId)
         {
             var result = _business.GetRadios(categoryId);

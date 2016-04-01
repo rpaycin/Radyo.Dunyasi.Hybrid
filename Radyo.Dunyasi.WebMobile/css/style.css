@@ -137,6 +137,10 @@
         content: url(../img/categories.png);
     }
 
+    .demo-wrapper .panel.left .orderByName a:before {
+        content: url(../img/menu_open.png);
+    }
+
     .demo-wrapper .panel.left .favourites a:before {
         content: url(../img/favourite.png);
     }
